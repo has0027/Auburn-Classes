@@ -1,0 +1,38 @@
+#!/usr/bin/python3
+
+import sys
+import hashlib
+from os import path
+import re
+
+if len(sys.argv) < 2:
+    print("Usage: %s <email-name>@auburn.edu ..." % sys.argv[0], file=sys.stderr)
+    sys.exit(1)
+
+if "email" in ''.join(sys.argv[1:]):
+    print("Remember to replace <email-name> with your actual email-name!", file=sys.stderr)
+    sys.exit(1)
+
+for og_addr in sys.argv[1:]:
+    sp = og_addr.lower().split("@")
+    if len(sp) != 2:
+        print("Invalid email format", file=sys.stderr)
+        sys.exit(1)
+        
+    if sp[1] != "auburn.edu":
+        print("Emails should end with '@auburn.edu'", file=sys.stderr)
+        sys.exit(1)
+
+    if not re.search("^[a-z]{3}\d{4}$", sp[0]):
+        print("Use your base-address's name not an alias.", file=sys.stderr)
+        sys.exit(1)
+
+if path.isfile("cookie"):
+    print("Cookie is already set. Run 'make clean' before trying to change it.", file=sys.stderr)
+    sys.exit(1)
+
+with open("cookie", "w") as file:
+    h = hashlib.sha256(('|'.join(sorted(sys.argv[1:])).lower()).encode()).digest()
+    print(int.from_bytes(h, byteorder='little') % 0x8FFF, file=file)
+    print("Cookie set for "+",".join(sys.argv[1:]) + ". Now run 'sudo make'.")
+

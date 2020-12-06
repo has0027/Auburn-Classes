@@ -1,0 +1,114 @@
+# Problem 2.1
+
+Date/Time:
+9/22/2020 16:41
+
+Client Implementation:
+I used the Linux OVA you provided us with and the pre-installed Firefox browser.
+
+Question #1:
+TLS 1.2
+
+Question #2:
+TLS_AES_128_GCM_SHA256
+TLS_CHACHA20_POLY1305_SHA256
+TLS_AES_256_GCM_SHA384
+TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+TLS_RSA_WITH_AES_128_GCM_SHA256
+TLS_RSA_WITH_AES_256_GCM_SHA384
+TLS_RSA_WITH_AES_128_CBC_SHA
+TLS_RSA_WITH_AES_256_CBC_SHA
+TLS_RSA_WITH_3DES_EDE_CBC_SHA
+
+Question #3:
+AES_128
+
+Question #4:
+GCM
+
+Question #5:
+ECDHE_RSA
+
+Question #6:
+SHA256
+
+Question #7:
+extended_master_secret: This master secret is used for the encryption between the client and server, which is used for all key exchange methods.
+session_ticket: When a connection is established a handshake occurs, but if a client has visited a server before it can send the session ticket to establish a "resumed connection" to the server thus reducing the overhead of the handshake.
+signature_algorithms: The client uses this to tell the server which signature/hash algorithm pairs are being used in digital signatures.
+
+# Problem 2.2
+
+Date/Time
+9/22/2020 18:00
+
+Client Implementation:
+I used the Linux OVA you provided us with and curl to connect to the url in the terminal.
+
+Question #1:
+TLS 1.2
+
+Question #2:
+TLS_AES_256_GCM_SHA384
+TLS_CHACHA20_POLY1305_SHA256
+TLS_AES_128_GCM_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+TLS_RSA_WITH_AES_256_GCM_SHA384
+TLS_RSA_WITH_AES_128_GCM_SHA256
+TLS_RSA_WITH_AES_256_CBC_SHA256
+TLS_RSA_WITH_AES_128_CBC_SHA256
+TLS_RSA_WITH_AES_256_CBC_SHA
+TLS_RSA_WITH_AES_128_CBC_SHA
+TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+
+Question #3:
+AES_256
+
+Question #4:
+GCM
+
+Question #5:
+SHA384
+
+Question #6:
+RSA
+
+Question #7:
+server_name: This allows the client to send the destination hostname as part of the TLS handshake.
+next_protocol_negotiation: This allows the application layer to negotiate which protocol should be performed next over the connection.
+padding: This allows a message to be padded to a desired size in order to prevent implementation bugs.
+
+Question #8:
+curl https://problem2-2.hw2.comp5370.org/
+
+Question #9:
+The two clients use different cipher suites and have different offered suites. This client used SHA384 while the other client used SHA256; where the SHA384 is not as common but is more secure than SHA256. This leads me to believe that this client is has a much higher security than the previous.

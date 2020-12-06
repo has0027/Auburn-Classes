@@ -1,0 +1,1688 @@
+/*********************************************************************/
+/***** DESIGN TOOLS CORE THEME IMPORT ********************************/
+/*********************************************************************/
+/* Import statements need to be at the top of your CSS file */
+/* For Main CSS file */
+@import url(https://designtools.ciditools.com/css/themes.css);
+/* For Mobile app CSS file */
+/*@import url(https://designtools.ciditools.com/css/app.css);*/
+/*********************************************************************/
+
+/*********************************************************************/
+/***** BEGIN AUBURN Custom CSS  **************************************/
+/*********************************************************************/
+#footer-links {
+	display: none;
+}
+
+
+
+.ic-Login__header__logo {
+	width: 400px;
+}
+
+/*********************************************************************/
+/***** END AUBURN Custom CSS  ****************************************/
+/*********************************************************************/
+
+/*********************************************************************/
+/***** BEGIN DESIGN TOOLS THEME CUSTOMIZATIONS ***********************/
+/*********************************************************************/
+
+/*********************************************************************/
+/*****    APPLE THEME   **********************************************/
+
+#kl_wrapper_3.kl_apple #kl_banner h2 {
+  background: #03244d;
+}
+#kl_wrapper_3.kl_apple #kl_banner #kl_banner_left .kl_mod_num {
+  color: #03244d;
+}
+#kl_wrapper_3.kl_apple #kl_banner .kl_subtitle {
+  color: #fff;
+  border-color: #03244d;
+  background-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_apple #kl_banner #kl_description {
+  border-color: #03244d;
+}
+#kl_wrapper_3.kl_apple h3:not(.ui-state-default) {
+  border-color: #696969;
+  background: #696969;
+}
+#kl_wrapper_3.kl_apple h4:not(.ui-state-default), 
+#kl_wrapper_3.kl_apple h5 {
+  border-color: #696969;
+}
+#kl_wrapper_3.kl_apple #kl_navigation ul {
+  background-color: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_apple #kl_navigation li a,
+#kl_wrapper_3.kl_apple #kl_navigation li a:hover,
+#kl_wrapper_3.kl_apple #kl_navigation li a:focus,
+#kl_wrapper_3.kl_apple #kl_navigation li a:visited {
+  color: #fff;
+}
+#kl_wrapper_3.kl_apple #kl_modules {
+  border-color: #03244d;
+}
+#kl_wrapper_3.kl_apple > div > i {
+  background-color: #696969;
+  color: #fff;
+}
+#kl_wrapper_3.kl_apple h3:not(.ui-state-default) i {
+  color: #fff;
+}
+
+/* Variation */
+#kl_wrapper_3.kl_apple.variation_2 #kl_banner h2 {
+  background: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_apple.variation_2 #kl_banner #kl_banner_left .kl_mod_num {
+  color: #03244d;
+}
+#kl_wrapper_3.kl_apple.variation_2 #kl_banner .kl_subtitle {
+  color: #fff;
+  border-color: #03244d;
+  background-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_apple.variation_2 #kl_banner #kl_description {
+  border-color: #03244d;
+}
+#kl_wrapper_3.kl_apple.variation_2 h3:not(.ui-state-default) {
+  border-color: #cc4e0b;
+  background: #cc4e0b;
+  color: #fff;
+}
+#kl_wrapper_3.kl_apple.variation_2 h4:not(.ui-state-default), 
+#kl_wrapper_3.kl_apple.variation_2 h5 {
+  border-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_apple.variation_2 #kl_navigation ul {
+  background-color: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_apple.variation_2 #kl_navigation li a,
+#kl_wrapper_3.kl_apple.variation_2 #kl_navigation li a:hover,
+#kl_wrapper_3.kl_apple.variation_2 #kl_navigation li a:focus,
+#kl_wrapper_3.kl_apple.variation_2 #kl_navigation li a:visited {
+  color: #fff;
+}
+#kl_wrapper_3.kl_apple.variation_2 #kl_modules {
+  border-color: #03244d;
+}
+#kl_wrapper_3.kl_apple.variation_2 > div > i {
+  background-color: #cc4e0b;
+  color: #fff;
+}
+#kl_wrapper_3.kl_apple.variation_2 h3:not(.ui-state-default) i {
+  color: #fff;
+}
+
+/*********************************************************************/
+/*****    BASIC BAR THEME    *****************************************/
+
+#kl_wrapper_3.kl_basic_bar #kl_banner h2 {
+  background: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_basic_bar #kl_banner .kl_subtitle {
+  color: #fff;
+  border-color: #03244d;
+  background-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_basic_bar #kl_banner #kl_description {
+  border-color: #03244d;
+  color: #03244d;
+}
+#kl_wrapper_3.kl_basic_bar h3:not(.ui-state-default) {
+  border-bottom-color: #03244d;
+  color: #03244d;
+}
+#kl_wrapper_3.kl_basic_bar h3:not(.ui-state-default) i {
+  color: #03244d;
+}
+/* Variation */
+#kl_wrapper_3.kl_basic_bar.variation_2 #kl_banner h2 {
+  background: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_basic_bar.variation_2 #kl_banner .kl_subtitle {
+  color: #fff;
+  border-color: #03244d;
+  background-color: #496e9C;
+}
+#kl_wrapper_3.kl_basic_bar.variation_2 #kl_banner #kl_description {
+  border-color: #03244d;
+}
+#kl_wrapper_3.kl_basic_bar.variation_2 h3:not(.ui-state-default) {
+  border-bottom-color: #cc4e0b;
+  color: #03244d;
+}
+#kl_wrapper_3.kl_basic_bar.variation_2 h3:not(.ui-state-default) i {
+  color: #cc4e0b;
+}
+
+/*********************************************************************/
+/*****    BASIC COLOR BANNER NAV THEME    ****************************/
+
+#kl_wrapper_3.kl_basic_color #kl_banner,
+#kl_wrapper_3.kl_basic_color_panel_nav #kl_banner {
+    background-color: #03244d;
+    color: #FFF;
+}
+#kl_wrapper_3.kl_basic_color #kl_banner #kl_banner_left,
+#kl_wrapper_3.kl_basic_color_panel_nav #kl_banner #kl_banner_left {
+   border-color:#fff;
+}
+#kl_wrapper_3.kl_basic_color #kl_banner .kl_subtitle,
+#kl_wrapper_3.kl_basic_color_panel_nav #kl_banner .kl_subtitle {
+   background-color: #cc4e0b;
+   color: #fff;
+   border-color: #fff;
+   border-top: 3px solid #fff;
+   border-right: none;
+   border-left: none;
+}
+#kl_wrapper_3.kl_basic_color #kl_banner #kl_description,
+#kl_wrapper_3.kl_basic_color_panel_nav #kl_banner #kl_description {
+   border-top: 3px solid #fff;
+}
+#kl_wrapper_3.kl_basic_color #kl_navigation ul li {
+   background-color: #03244d;
+   color: #fff;
+}
+
+#kl_wrapper_3.kl_basic_color #kl_navigation ul li a {
+   border-bottom: 3px solid #fff;
+   text-decoration: none;
+}
+#kl_wrapper_3.kl_basic_color #kl_navigation ul li a,
+#kl_wrapper_3.kl_basic_color #kl_navigation ul li a:hover,
+#kl_wrapper_3.kl_basic_color #kl_navigation ul li a:focus,
+#kl_wrapper_3.kl_basic_color #kl_navigation ul li a:visited {
+    color: #fff;
+}
+#kl_wrapper_3.kl_basic_color #kl_navigation ul li a:hover,
+#kl_wrapper_3.kl_basic_color #kl_navigation ul li a:focus {
+    text-decoration: underline;
+}
+/* BASIC COLOR PANEL NAVIGAION */
+#kl_wrapper_3.kl_basic_color_panel_nav #kl_navigation ul li a {
+   color:  #03244d;
+}
+#kl_wrapper_3.kl_basic_color_panel_nav #kl_navigation ul li a:hover {
+    color: #000;
+}
+
+/* Variation */
+#kl_wrapper_3.kl_basic_color.variation_2 #kl_banner #kl_banner_left,
+#kl_wrapper_3.kl_basic_color_panel_nav.variation_2 #kl_banner #kl_banner_left {
+   border-color:#fff;
+}
+#kl_wrapper_3.kl_basic_color.variation_2 #kl_banner .kl_subtitle,
+#kl_wrapper_3.kl_basic_color_panel_nav.variation_2 #kl_banner .kl_subtitle {
+   background-color: #cc4e0b;
+   color: #fff;
+   border-color: #cc4e0b;
+   border-top-color: #fff;
+   border-right: none;
+   border-left: none;
+}
+#kl_wrapper_3.kl_basic_color_panel_nav.variation_2 #kl_navigation li a:hover {
+   color: #fff;
+}
+#kl_wrapper_3.kl_basic_color.variation_2 #kl_navigation ul li {
+   background-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_basic_color.variation_2 #kl_navigation ul li a {
+   color: #fff;
+}
+/* Media Queries w/ & w/out Course Menu Collapsed */
+@media screen and (min-width: 640px) {
+    #kl_wrapper_3.kl_basic_color_panel_nav #kl_navigation ul {
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+    #kl_wrapper_3.kl_basic_color_panel_nav #kl_navigation ul li a:hover {
+      background-color: #03244d;
+      color: #fff;
+    }
+    #kl_wrapper_3.kl_basic_color_panel_nav.variation_2 #kl_navigation ul li a:hover {
+      background-color: #cc4e0b;
+      color: #fff;
+    }
+}
+
+/*********************************************************************/
+/*****    BOOKMARK THEME      ****************************************/
+
+#kl_wrapper_3.kl_bookmark #kl_banner h2 {
+   background-color: #03244d;
+}
+#kl_wrapper_3.kl_bookmark #kl_banner #kl_banner_left {
+    border-right-color: #fff;
+}
+#kl_wrapper_3.kl_bookmark #kl_banner #kl_banner_left .kl_mod_num {
+    color: #03244d;
+}
+#kl_wrapper_3.kl_bookmark #kl_banner .kl_subtitle {
+    background-color: #496e9C;
+    color: #fff;
+}
+#kl_wrapper_3.kl_bookmark h3:not(.ui-state-default) {
+    background-color: #cc4e0b;
+    color: #fff;
+    font-weight: normal;
+}
+#kl_wrapper_3.kl_bookmark > div > i {
+    background-color: #03244d;
+    color: #fff;
+}
+#kl_wrapper_3.kl_bookmark h4:not(.kl_panel_heading), 
+#kl_wrapper_3.kl_bookmark h5:not(.kl_panel_heading) {
+    background-color: #03244d;
+    color: #fff;
+    font-weight: normal;
+}
+#kl_wrapper_3.kl_bookmark #kl_banner #kl_description {
+    border: 1px solid #03244d;
+}
+#kl_wrapper_3.kl_bookmark #kl_navigation ul li a {
+    background: #fff;
+    color: #03244d;
+    border-color:  #F4F4F4;
+}
+#kl_wrapper_3.kl_bookmark .kl_quick_check,
+#kl_wrapper_3.kl_bookmark #kl_modules .ui-tabs-panel {
+    background: #fff;
+}
+
+/* Variation */
+#kl_wrapper_3.kl_bookmark.variation_2 #kl_banner .kl_subtitle {
+    background-color: #cc4e0b;
+    color: #fff;
+}
+#kl_wrapper_3.kl_bookmark.variation_2 h3:not(.ui-state-default) {
+    background-color: #03244d;
+    color: #fff;
+}
+#kl_wrapper_3.kl_bookmark.variation_2 > div > i {
+    background-color: #cc4e0b;
+    color: #fff;
+}
+#kl_wrapper_3.kl_bookmark.variation_2 #kl_banner #kl_description {
+    border: 1px solid #cc4e0b;
+}
+#kl_wrapper_3.kl_bookmark.variation_2 h4:not(.kl_panel_heading), 
+#kl_wrapper_3.kl_bookmark.variation_2 h5:not(.kl_panel_heading) {
+    background-color: #cc4e0b;
+    color: #fff;
+}
+
+/*********************************************************************/
+/***** BOX LEFT THEMES              **********************************/
+
+/* BASE THEME */
+#kl_wrapper_3.kl_box_left h2 {
+  border-bottom-color: #03244d;
+}
+#kl_wrapper_3.kl_box_left h3:not(.ui-state-default) {
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+}
+#kl_wrapper_3.kl_box_left h3:not(.ui-state-default) i {
+  background: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_box_left #kl_modules div.kl_module_content h3 {
+  border: 1px solid lightgray;
+}
+#kl_wrapper_3.kl_box_left #kl_banner #kl_description {
+  background: #fff;
+  border: 1px solid lightgray;
+}
+#kl_wrapper_3.kl_box_left > div > i {
+  color: #fff;
+}
+#kl_wrapper_3.kl_box_left #kl_banner #kl_banner_left {
+  background: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_box_left > div > i {
+  background: #03244d;
+}
+#kl_wrapper_3.kl_box_left #kl_navigation ul li a,
+#kl_wrapper_3.kl_box_left #kl_navigation ul li a:visited {
+  background: #fff;
+  color: #000;
+  border: 1px solid #03244d;
+}
+#kl_wrapper_3.kl_box_left #kl_navigation ul li a:hover,
+#kl_wrapper_3.kl_box_left #kl_navigation ul li a:focus {
+ background: #cc4e0b;
+ color: #fff;
+}
+
+/* VARIATION */
+#kl_wrapper_3.kl_box_left.variation_2 #kl_banner #kl_banner_left {
+  background: #cc4e0b;
+  color: #fff;
+}
+#kl_wrapper_3.kl_box_left.variation_2 > div > i {
+  background: #cc4e0b;
+  color: #fff;
+}
+#kl_wrapper_3.kl_box_left.variation_2 h3:not(.ui-state-default) i {
+  background: #cc4e0b;
+  color: #fff;
+}
+#kl_wrapper_3.kl_box_left.variation_2 #kl_navigation ul li a,
+#kl_wrapper_3.kl_box_left.variation_2 #kl_navigation ul li a:visited {
+  background: #fff;
+  color: #000;
+  border: 1px solid #03244d;
+}
+#kl_wrapper_3.kl_box_left.variation_2 #kl_navigation ul li a:focus,
+#kl_wrapper_3.kl_box_left.variation_2 #kl_navigation ul li a:hover {
+  background: #03244d;
+  color: #fff;
+}
+
+/*********************************************************************/
+/***** CIRCLE-LEFT THEME *********************************************/
+
+/* BASE THEME */
+
+#kl_wrapper_3.kl_circle_left #kl_banner h2 {
+    background: #cc4e0b;
+    color: #fff;
+}
+#kl_wrapper_3.kl_circle_left > div > h3:not(.ui-state-default) i,
+#kl_wrapper_3.kl_circle_left #kl_modules div.kl_module_content h3 i  {
+    border: 5px solid #fff;
+}
+#kl_wrapper_3.kl_circle_left #kl_navigation ul li i {
+    border: 3px solid #fff;
+    background: #cc4e0b;
+    color: #fff;
+}
+#kl_wrapper_3.kl_circle_left,
+#kl_wrapper_3.kl_circle_left #kl_banner .kl_subtitle,
+#kl_wrapper_3.kl_circle_left #kl_banner #kl_description,
+#kl_wrapper_3.kl_circle_left #kl_banner_image img {
+    border-color: #03244d;
+}
+#kl_wrapper_3.kl_circle_left h3:not(.ui-state-default),
+#kl_wrapper_3.kl_circle_left h4:not(.kl_panel_heading),
+#kl_wrapper_3.kl_circle_left h5 {
+    border-color: #03244d;
+}
+#kl_wrapper_3.kl_circle_left #kl_banner_left {
+    background: #03244d;
+    color: #fff;  
+}
+#kl_wrapper_3.kl_circle_left h3 i,
+#kl_wrapper_3.kl_circle_left > div > i {
+    background: #03244d;
+    color: #fff;
+}
+#kl_wrapper_3.kl_circle_left #kl_navigation ul li a,
+#kl_wrapper_3.kl_circle_left #kl_navigation ul li a {
+    background: #03244d;
+    color: #FFF;
+}
+
+/* Variation 2 */
+#kl_wrapper_3.kl_circle_left.variation_2 #kl_banner h2 {
+    background: #03244d;
+    color: #FFF;
+}
+#kl_wrapper_3.kl_circle_left.variation_2,
+#kl_wrapper_3.kl_circle_left.variation_2 #kl_banner .kl_subtitle,
+#kl_wrapper_3.kl_circle_left.variation_2 #kl_banner #kl_description,
+#kl_wrapper_3.kl_circle_left.variation_2 #kl_banner_image img {
+    border-color: #03244d;
+}
+#kl_wrapper_3.kl_circle_left.variation_2 h4:not(.kl_panel_heading),
+#kl_wrapper_3.kl_circle_left.variation_2 h5 {
+    border-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_circle_left.variation_2 h3:not(.ui-state-default) {
+    border-color: #03244d;
+}
+#kl_wrapper_3.kl_circle_left.variation_2 #kl_banner_left {
+  background-color: #cc4e0b;
+  color: #fff;
+}
+#kl_wrapper_3.kl_circle_left.variation_2 h3 i,
+#kl_wrapper_3.kl_circle_left.variation_2 > div > i {
+    background: #cc4e0b;
+    color: #fff;
+}
+#kl_wrapper_3.kl_circle_left.variation_2 #kl_navigation ul li i {
+    background: #03244d;
+    color: #fff;
+}
+#kl_wrapper_3.kl_circle_left.variation_2 #kl_navigation ul li a,
+#kl_wrapper_3.kl_circle_left.variation_2 #kl_navigation ul li a {
+    background: #cc4e0b;
+    color: #fff;
+}
+
+/*********************************************************************/
+/*****    CIRCLES OVERLAP THEME        *******************************/
+
+/* This one still needs a lot of work */
+#kl_wrapper_3.kl_circles_overlap #kl_banner #kl_banner_right {
+    color: #000;
+    background: rgba(255, 255, 255, 0.68);
+}
+#kl_wrapper_3.kl_circles_overlap #kl_banner .kl_subtitle {
+    background: rgba(255, 255, 255, 0.72);
+}
+#kl_wrapper_3.kl_circles_overlap #kl_banner #kl_description {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.42);
+}
+#kl_wrapper_3.kl_circles_overlap #kl_navigation li a,
+#kl_wrapper_3.kl_circles_overlap #kl_navigation li a:hover,
+#kl_wrapper_3.kl_circles_overlap #kl_navigation li a:focus,
+#kl_wrapper_3.kl_circles_overlap #kl_navigation li a:visited {
+ color: #fff;
+}
+#kl_wrapper_3.kl_circles_overlap #kl_navigation li a {
+    background-color: #03244d;
+}
+#kl_wrapper_3.kl_circles_overlap > div > i,
+#kl_wrapper_3.kl_circles_overlap h3:not(.ui-state-default) i{
+    background-color: 000;
+    color: #fff;
+}
+#tinymce.kl_mce_visual_blocks #kl_wrapper_3.kl_circles_overlap #kl_navigation li a,
+#kl_wrapper_3.kl_circles_overlap #kl_navigation.kl_active li a,
+#kl_wrapper_3.kl_circles_overlap #kl_navigation li a:hover {
+    color: #fff;
+    background: #696969 !important;
+}
+#tinymce.kl_mce_visual_blocks #kl_wrapper_3.kl_circles_overlap #kl_navigation li a i,
+#kl_wrapper_3.kl_circles_overlap #kl_navigation.kl_active li a i,
+#kl_wrapper_3.kl_circles_overlap #kl_navigation li a:hover i {
+    background-color: #696969;
+}
+#kl_wrapper_3.kl_circles_overlap>div>i, 
+#kl_wrapper_3.kl_circles_overlap h3:not(.ui-state-default) i {
+  background-color: #cc4e0b;
+  color: #fff;
+}
+
+/*********************************************************************/
+/***** COLORED HEADINGS & COLORED HEADINGS BOX LEFT THEMES  **********/
+
+/* SHARED */
+#kl_wrapper_3.kl_colored_headings_box_left > div,
+#kl_wrapper_3.kl_colored_headings > div {
+  background-color: #fff;
+  border: 1px solid lightgray;
+}
+
+#kl_wrapper_3.kl_colored_headings_box_left #kl_navigation ul,
+#kl_wrapper_3.kl_colored_headings #kl_navigation ul {
+  background-color: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_colored_headings_box_left #kl_navigation li a,
+#kl_wrapper_3.kl_colored_headings #kl_navigation li a {
+  border: 1px solid #03244d;
+}
+#kl_wrapper_3.kl_colored_headings_box_left #kl_navigation li a:hover,
+#kl_wrapper_3.kl_colored_headings #kl_navigation li a:hover {
+  color: #03244d;
+  background-color: #fff;
+  -moz-box-shadow:    inset 0 0 3px #fff;
+  -webkit-box-shadow: inset 0 0 3px #fff;
+  box-shadow:         inset 0 0 3px #fff;
+  border: 1px solid #03244d;
+}
+#kl_wrapper_3.kl_colored_headings_box_left #kl_navigation li a:hover i,
+#kl_wrapper_3.kl_colored_headings #kl_navigation li a:hover i {
+  background-color: #03244d;
+  color: #fff;
+}
+
+/* With Banner */
+#kl_wrapper_3.kl_colored_headings_box_left #kl_banner {
+  background: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_colored_headings_box_left #kl_banner #kl_banner_left {
+  background-color: #fff;
+  color: #000;
+  border-bottom-color:#cc4e0b;
+}
+#kl_wrapper_3.kl_colored_headings_box_left #kl_banner .kl_subtitle {
+  background-color: #fff;
+  color: #000;
+}
+/* Without default banner */
+#kl_wrapper_3.kl_colored_headings #kl_banner {
+  background: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_colored_headings #kl_banner #kl_banner_left {
+  background-color: #fff;
+  color: #000;
+}
+#kl_wrapper_3.kl_colored_headings #kl_banner .kl_subtitle {
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  background-color: #fff;
+  color: #000;
+}
+#kl_wrapper_3.kl_colored_headings.variation_2 #kl_banner .kl_subtitle {
+  background-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_colored_headings #kl_banner #kl_description {
+  background-color: #fff;
+  color: #000;
+}
+#kl_wrapper_3.kl_colored_headings #kl_navigation li a,
+#kl_wrapper_3.kl_colored_headings #kl_navigation li a:visited,
+#kl_wrapper_3.kl_colored_headings_box_left #kl_navigation li a,
+#kl_wrapper_3.kl_colored_headings_box_left #kl_navigation li a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+#kl_wrapper_3.kl_colored_headings #kl_navigation li a:focus,
+#kl_wrapper_3.kl_colored_headings_box_left #kl_navigation li a:hover,
+#kl_wrapper_3.kl_colored_headings #kl_navigation li a:hover,
+#kl_wrapper_3.kl_colored_headings_box_left #kl_navigation li a:focus {
+  color: #000;
+}
+#kl_wrapper_3.kl_colored_headings #kl_navigation li a:focus i,
+#kl_wrapper_3.kl_colored_headings_box_left #kl_navigation li a:hover i,
+#kl_wrapper_3.kl_colored_headings #kl_navigation li a:hover i,
+#kl_wrapper_3.kl_colored_headings_box_left #kl_navigation li a:focus i {
+  border-bottom-color: #767676;
+}
+
+
+#kl_wrapper_3.kl_colored_headings_box_left #kl_navigation i,
+#kl_wrapper_3.kl_colored_headings #kl_navigation i {
+  background: #fff;
+  color: #696969;
+  border-bottom-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_colored_headings_box_left #kl_modules .ui-widget-content,
+#kl_wrapper_3.kl_colored_headings #kl_modules .ui-widget-content {
+  border: 1px solid lightgray;
+  background: #fff;
+}
+
+/* Default Headings */
+#kl_wrapper_3.kl_colored_headings_box_left #kl_modules h3,
+#kl_wrapper_3.kl_colored_headings #kl_modules h3,
+#kl_wrapper_3.kl_colored_headings_box_left > div > h3:not(.ui-state-default),
+#kl_wrapper_3.kl_colored_headings > div > h3:not(.ui-state-default) {
+  background-color: #cc4e0b;
+  border-top: 5px solid #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_colored_headings_box_left > div > h3 i,
+#kl_wrapper_3.kl_colored_headings > div > h3:not(.ui-state-default) i,
+#kl_wrapper_3.kl_colored_headings_box_left #kl_modules h3 i,
+#kl_wrapper_3.kl_colored_headings #kl_modules h3:not(.ui-state-default) i {
+  background-color: #fff;
+  color: #03244d;
+  border-bottom: 4px solid #03244d;
+}
+/* Objectives Blue*/
+#kl_wrapper_3.kl_colored_headings_box_left #kl_objectives h3:not(.ui-state-default),
+#kl_wrapper_3.kl_colored_headings #kl_objectives h3:not(.ui-state-default) {
+  background-color: #AB162B;
+  border-top: 5px solid #03244d;
+  color: #fff;
+}
+/* Readings Red */
+#kl_wrapper_3.kl_colored_headings_box_left #kl_readings h3:not(.ui-state-default),
+#kl_wrapper_3.kl_colored_headings #kl_readings h3:not(.ui-state-default) {
+  background-color: #774D27;
+  border-top: 5px solid #03244d;
+  color: #fff;
+}
+/* Lectures Green */
+#kl_wrapper_3.kl_colored_headings_box_left #kl_lectures h3:not(.ui-state-default),
+#kl_wrapper_3.kl_colored_headings #kl_lectures h3:not(.ui-state-default) {
+  background-color: #606637;
+  border-top: 5px solid #03244d;
+  color: #fff;
+}
+/* Activities Orange */
+#kl_wrapper_3.kl_colored_headings_box_left #kl_activities h3:not(.ui-state-default),
+#kl_wrapper_3.kl_colored_headings #kl_activities h3:not(.ui-state-default) {
+  background-color: #003A5C;
+  border-top: 5px solid #03244d;
+  color: #fff;
+}
+/* Assignments Purple */
+#kl_wrapper_3.kl_colored_headings_box_left #kl_assignments h3:not(.ui-state-default),
+#kl_wrapper_3.kl_colored_headings #kl_assignments h3:not(.ui-state-default) {
+  background-color: #60285E;
+  border-top: 5px solid #03244d;
+  color: #fff;
+}
+/* Other Styles */
+#kl_wrapper_3.kl_colored_headings_box_left h4,
+#kl_wrapper_3.kl_colored_headings h4 {
+  border-bottom: 1px solid #E0E0E0;
+  color: #000;
+}
+#kl_wrapper_3.kl_colored_headings_box_left h5,
+#kl_wrapper_3.kl_colored_headings h5 {
+  border-bottom: 1px solid #E0E0E0;
+  color: #000;
+}
+#kl_wrapper_3.kl_colored_headings_box_left .well,
+#kl_wrapper_3.kl_colored_headings .well {
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+/* VARIATION */
+#kl_wrapper_3.kl_colored_headings_box_left.variation_2 #kl_banner {
+  background: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_colored_headings.variation_2 #kl_banner .kl_subtitle,
+#kl_wrapper_3.kl_colored_headings_box_left.variation_2 #kl_banner .kl_subtitle {
+  background: #cc4e0b;
+  color: #fff;
+
+}
+#kl_wrapper_3.kl_colored_headings_box_left.variation_2 #kl_banner #kl_banner_left {
+  background-color: #fff;
+  color: #000;
+  border-bottom-color: #fff;
+}
+#kl_wrapper_3.kl_colored_headings_box_left.variation_2 #kl_navigation i,
+#kl_wrapper_3.kl_colored_headings.variation_2 #kl_navigation i {
+  background: #fff;
+  color: #03244d;
+  border-bottom-color: #03244d;
+}
+
+#kl_wrapper_3.kl_colored_headings.variation_2 #kl_banner #kl_banner_left {
+  background-color: #cc4e0b;
+  color: #fff;
+  border: 1px solid #fff;
+}
+#kl_wrapper_3.kl_colored_headings_box_left.variation_2 #kl_navigation ul,
+#kl_wrapper_3.kl_colored_headings.variation_2 #kl_navigation ul {
+  background-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_colored_headings.variation_2 #kl_navigation li a,
+#kl_wrapper_3.kl_colored_headings.variation_2 #kl_navigation li a:visited,
+#kl_wrapper_3.kl_colored_headings_box_left.variation_2 #kl_navigation li a,
+#kl_wrapper_3.kl_colored_headings_box_left.variation_2 #kl_navigation li a:visited {
+  color: #fff;
+  border-color: transparent;
+}
+#kl_wrapper_3.kl_colored_headings.variation_2 #kl_navigation li a:focus,
+#kl_wrapper_3.kl_colored_headings.variation_2 #kl_navigation li a:hover,
+#kl_wrapper_3.kl_colored_headings_box_left.variation_2 #kl_navigation li a:focus,
+#kl_wrapper_3.kl_colored_headings_box_left.variation_2 #kl_navigation li a:hover {
+  color: #03244d;
+  border-color: transparent;
+}
+
+/*********************************************************************/
+/***** EMTA THEME         ********************************************/
+
+#kl_wrapper_3.kl_emta {
+  color: #000;
+}
+#kl_wrapper_3.kl_emta #kl_banner h2 {
+  background-color: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_emta #kl_banner #kl_banner_left {
+  border-right: 2px solid #fff;
+}
+#kl_wrapper_3.kl_emta #kl_banner #kl_banner_left .kl_mod_num{
+  color: #03244d;
+}
+#kl_wrapper_3.kl_emta #kl_banner {
+  background: #cc4e0b;
+  color: #fff;
+  border: 1px solid #03244d;
+}
+#kl_wrapper_3.kl_emta #kl_banner #kl_description {
+  background: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_emta h3:not(.ui-state-default) {
+  color: #fff;
+  background: #cc4e0b;
+}
+#kl_wrapper_3.kl_emta #kl_navigation ul {
+  background-color: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_emta #kl_navigation li a,
+#kl_wrapper_3.kl_emta #kl_navigation li a:hover,
+#kl_wrapper_3.kl_emta #kl_navigation li a:focus,
+#kl_wrapper_3.kl_emta #kl_navigation li a:visited {
+  color: #fff;
+}
+#kl_wrapper_3.kl_emta #kl_modules {
+  border: 1px solid #03244d;
+}
+
+/********************************************************************/
+/**** FLAT SECTIONS & FLAT SECTIONS MAIN THEMES *********************/
+
+/**** FLAT SECTIONS MAIN ****/
+#kl_wrapper_3.kl_flat_sections_main #kl_banner {
+    background: #03244d;
+    color: #fff;
+}
+#kl_wrapper_3.kl_flat_sections_main #kl_banner #kl_banner_left{
+    background-color: #cc4e0b;
+    color: #fff;
+}
+#kl_wrapper_3.kl_flat_sections_main #kl_banner .kl_subtitle {
+   background: #fff;
+   color: black;
+}
+#kl_wrapper_3.kl_flat_sections_main #kl_banner #kl_description {
+    background-color: #fff;
+    color: #000;
+   border-top: 2px solid #fff;
+   border-bottom: 2px solid #fff;
+}
+
+/**** FLAT SECTIONS ****/
+#kl_wrapper_3.kl_flat_sections #kl_banner {
+    background: #03244d;
+    color: #fff;
+}
+#kl_wrapper_3.kl_flat_sections #kl_banner h2 {
+   border-top: 1px solid #fff;
+}
+#kl_wrapper_3.kl_flat_sections #kl_banner #kl_banner_left{
+   background-color: #cc4e0b;
+   color: #fff;
+}
+#kl_wrapper_3.kl_flat_sections #kl_banner .kl_subtitle {
+   background: #fff;
+   color: #696969;
+}
+#kl_wrapper_3.kl_flat_sections #kl_banner #kl_description {
+   background: #fff;
+   color: #696969;
+}
+
+/**** SHARED ****/
+#kl_wrapper_3.kl_flat_sections_main #kl_navigation ul,
+#kl_wrapper_3.kl_flat_sections #kl_navigation ul {
+    background-color: #03244d;
+    color: #fff;
+}
+#kl_wrapper_3.kl_flat_sections #kl_navigation li a,
+#kl_wrapper_3.kl_flat_sections_main #kl_navigation li a {
+  border: 1px solid #03244d;
+}
+
+#kl_wrapper_3.kl_flat_sections #kl_navigation li a,
+#kl_wrapper_3.kl_flat_sections #kl_navigation li a:visited,
+#kl_wrapper_3.kl_flat_sections_main #kl_navigation li a,
+#kl_wrapper_3.kl_flat_sections_main #kl_navigation li a:visited {
+   color: #fff;
+}
+#kl_wrapper_3.kl_flat_sections #kl_navigation li a:hover,
+#kl_wrapper_3.kl_flat_sections #kl_navigation li a:focus,
+#kl_wrapper_3.kl_flat_sections_main #kl_navigation li a:hover,
+#kl_wrapper_3.kl_flat_sections_main #kl_navigation li a:focus {
+    background: #fff;
+    color: #03244d;
+}
+#kl_wrapper_3.kl_flat_sections_main #kl_navigation i,
+#kl_wrapper_3.kl_flat_sections #kl_navigation i {
+   background: #fff;
+   color: #696969;
+   border: 1px solid #696969;
+}
+#kl_wrapper_3.kl_flat_sections #kl_navigation li a:hover i,
+#kl_wrapper_3.kl_flat_sections #kl_navigation li a:focus i,
+#kl_wrapper_3.kl_flat_sections_main #kl_navigation li a:hover i,
+#kl_wrapper_3.kl_flat_sections_main #kl_navigation li a:focus i {
+   background: #03244d;
+   color: #fff;
+   border-color: #03244d;
+}
+/* Content */
+#kl_wrapper_3.kl_flat_sections_main h3:not(.ui-state-default),
+#kl_wrapper_3.kl_flat_sections h3:not(.ui-state-default) {
+    color: #000;
+    border-top: 1px solid #E0E0E0;
+}
+#kl_wrapper_3.kl_flat_sections_main > div > i,
+#kl_wrapper_3.kl_flat_sections > div > i {
+    color: #696969;
+    border: 1px solid #E0E0E0;
+    background: #fff;
+}
+#kl_wrapper_3.kl_flat_sections_main h3:not(.ui-state-default) i:first-child,
+#kl_wrapper_3.kl_flat_sections h3:not(.ui-state-default) i:first-child {
+    color: #696969;
+    border: 1px solid #E0E0E0;
+    background: #fff;
+}
+#kl_wrapper_3.kl_flat_sections_main h4,
+#kl_wrapper_3.kl_flat_sections h4 {
+    color: #000;
+    border-bottom: 1px solid #E0E0E0;
+}
+#kl_wrapper_3.kl_flat_sections_main h5,
+#kl_wrapper_3.kl_flat_sections h5 {
+    color: #000;
+    border-bottom: 1px solid #E0E0E0;
+}
+#kl_wrapper_3.kl_flat_sections_main > div:nth-child(odd),
+#kl_wrapper_3.kl_flat_sections > div:nth-child(odd) {
+    background: whitesmoke;
+}
+#kl_wrapper_3.kl_flat_sections_main .well,
+#kl_wrapper_3.kl_flat_sections .well {
+   background-color: #f5f5f5;
+   border: 1px solid #e3e3e3;
+   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+   box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+#kl_wrapper_3.kl_flat_sections_main blockquote,
+#kl_wrapper_3.kl_flat_sections blockquote {
+    border-left: 5px solid #E0E0E0;
+}
+
+/* VARIATION */
+#kl_wrapper_3.kl_flat_sections.variation_2 #kl_navigation li a,
+#kl_wrapper_3.kl_flat_sections.variation_2 #kl_navigation li a:visited,
+#kl_wrapper_3.kl_flat_sections_main.variation_2 #kl_navigation li a,
+#kl_wrapper_3.kl_flat_sections_main.variation_2 #kl_navigation li a:visited {
+    background: #cc4e0b;
+    color: #fff;
+    border-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_flat_sections.variation_2 #kl_navigation li a:hover,
+#kl_wrapper_3.kl_flat_sections.variation_2 #kl_navigation li a:focus,
+#kl_wrapper_3.kl_flat_sections_main.variation_2 #kl_navigation li a:hover,
+#kl_wrapper_3.kl_flat_sections_main.variation_2 #kl_navigation li a:focus {
+    background: #fff;
+    color: #03244d;
+}
+#kl_wrapper_3.kl_flat_sections.variation_2 #kl_banner h2 {
+   border-top-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_flat_sections.variation_2 #kl_banner #kl_banner_left,
+#kl_wrapper_3.kl_flat_sections_main.variation_2 #kl_banner #kl_banner_left{
+   background-color: #cc4e0b;
+   color: #fff;
+}
+#kl_wrapper_3.kl_flat_sections.variation_2 #kl_banner .kl_subtitle {
+   background: #fff;
+   color: #696969;
+   border-top: 1px solid #cc4e0b;
+   border-bottom: 1px solid #cc4e0b;
+}
+
+
+/*********************************************************************/
+/***** GENERIC THEME  ************************************************/
+
+/* .kl_generic: This one is intentionally generic so there is no customization needed */
+
+
+/*********************************************************************/
+/*****    RIBBONS THEME      *****************************************/
+
+#kl_wrapper_3.kl_ribbons_main #kl_banner #kl_banner_left {
+  background: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_ribbons_main #kl_banner #kl_banner_right {
+  background: rgba(255, 255, 255, 0.65);
+  border-bottom: 1px solid #cc4e0b;
+}
+#kl_wrapper_3.kl_ribbons_main #kl_banner .kl_subtitle {
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid #cc4e0b;
+}
+#kl_wrapper_3.kl_ribbons_main #kl_banner #kl_description {
+  border: 4px double #cc4e0b;
+  background: rgba(255, 255, 255, 0.8);
+}
+#kl_wrapper_3.kl_ribbons_main #kl_navigation a i {
+  background: #cc4e0b;
+  color: #fff;
+}
+#kl_wrapper_3.kl_ribbons_main #kl_navigation li a{
+  background: rgba(255, 255, 255, 0.8);
+  color: #545454;
+  border: 1px solid #cc4e0b;
+}
+#kl_wrapper_3.kl_ribbons_main h3:not(.ui-state-default) {
+  background-color: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_ribbons_main h3:not(.ui-state-default) i {
+  background: #FFF;
+  color: #03244d;
+}
+#kl_wrapper_3.kl_ribbons_main > div > i {
+  background-color: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_ribbons_main .kl_quick_check,
+#kl_wrapper_3.kl_ribbons_main #kl_modules .ui-tabs-panel {
+  background: #fff;
+}
+
+/* VARIATION */
+#kl_wrapper_3.kl_ribbons_main.variation_2 #kl_banner #kl_banner_left {
+  background: #cc4e0b;
+  color: #FFF;
+}
+#kl_wrapper_3.kl_ribbons_main.variation_2 #kl_navigation a i {
+  background: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_ribbons_main.variation_2 h3:not(.ui-state-default) {
+  background-color: #cc4e0b;
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+/* ADJUSTMENTS FOR SCREEN SIZE */
+/* Course Menu Expanded */
+@media screen and (min-width: 950px) {
+
+  body.course-menu-expanded #kl_wrapper_3.kl_ribbons_main #kl_navigation li a{
+    background: #fff;
+  }
+  body.course-menu-expanded #kl_wrapper_3.kl_ribbons_main #kl_navigation a:after {
+    border: 22px solid #fff;
+    border-left: 20px solid transparent;
+  }
+}
+/* Banner text above Navigation as ribbons */
+/* Course Menu Collapsed */
+@media screen and (min-width: 800px) and (max-width: 969px) {
+  body:not(.course-menu-expanded) #kl_wrapper_3.kl_ribbons_main #kl_navigation li a{
+    background: #fff;
+  }
+  body:not(.course-menu-expanded) #kl_wrapper_3.kl_ribbons_main #kl_navigation a:after {
+    border: 22px solid #fff;
+    border-left: 20px solid transparent;
+  }
+}
+/* Navigation as rotated ribbons */
+/* Course Menu Collapsed */
+@media screen and (min-width: 1000px) {
+  body:not(.course-menu-expanded) #kl_wrapper_3.kl_ribbons_main #kl_navigation li a{
+    background: #fff;
+  }
+  body:not(.course-menu-expanded) #kl_wrapper_3.kl_ribbons_main #kl_navigation a:after {
+    border: 22px solid #fff;
+    border-left: 20px solid transparent;
+  }
+}
+
+/*********************************************************************/
+/***** ROUNDED-INSET THEMES 1, 2    **********************************/
+
+/* BASE */
+#kl_wrapper_3.kl_rounded_inset h2 {
+ border-color: #8A8A8A;
+ background: #fff;
+ color: #000;
+}
+#kl_wrapper_3.kl_rounded_inset #kl_banner {
+ background: #03244d;
+ color: #fff;
+}
+#kl_wrapper_3.kl_rounded_inset #kl_banner_left {
+  border-color: #03244d;
+}
+#kl_wrapper_3.kl_rounded_inset #kl_banner #kl_description,
+#kl_wrapper_3.kl_rounded_inset #kl_banner .kl_subtitle {
+  color: #fff;
+}
+#kl_wrapper_3.kl_rounded_inset #kl_banner #kl_description {
+  background: #cc4e0b;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+#kl_wrapper_3.kl_rounded_inset h3:not(.ui-state-default) {
+  border-color: #cc4e0b;
+  background-color: #fff;
+  border-width: 2px;
+}
+#kl_wrapper_3.kl_rounded_inset > div > i {
+  border-color: #efefef;
+}
+#kl_wrapper_3.kl_rounded_inset #kl_navigation ul li a,
+#kl_wrapper_3.kl_rounded_inset #kl_navigation ul li a:visited {
+ color: #03244d;
+ border-color: #03244d;
+ text-decoration: none;
+}
+#kl_wrapper_3.kl_rounded_inset #kl_navigation ul li a:hover,
+#kl_wrapper_3.kl_rounded_inset #kl_navigation ul li a:focus {
+ background: #cc4e0b;
+ color: #FFF;
+}
+/* VARIATION 2 */
+#kl_wrapper_3.kl_rounded_inset.variation_2 #kl_banner {
+ background: #03244d;
+ color: #fff;
+}
+#kl_wrapper_3.kl_rounded_inset.variation_2 #kl_banner_left {
+  border-color: #03244d;
+}
+#kl_wrapper_3.kl_rounded_inset.variation_2 #kl_banner .kl_subtitle {
+  color: #fff;
+}
+#kl_wrapper_3.kl_rounded_inset.variation_2 #kl_banner #kl_description {
+ background: #cc4e0b;
+ color: #fff;
+}
+#kl_wrapper_3.kl_rounded_inset.variation_2 #kl_navigation ul li a,
+#kl_wrapper_3.kl_rounded_inset.variation_2 #kl_navigation ul li a:visited {
+ color: #03244d;
+ border-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_rounded_inset.variation_2 #kl_navigation ul li a:hover,
+#kl_wrapper_3.kl_rounded_inset.variation_2 #kl_navigation ul li a:focus {
+ background: #cc4e0b;
+ color: #fff;
+}
+#kl_wrapper_3.kl_rounded_inset.variation_2 h3:not(.ui-state-default) {
+  border-color: #03244d;
+  background-color: #fff;
+  border-width: 2px;
+}
+
+/*********************************************************************/
+/***** SQUARE RIGHT THEMES 1, and 2  *********************************/
+
+/* BASE */
+#kl_wrapper_3.kl_square_right h2 {
+  background: #cc4e0b;
+  color: #fff;
+}
+#kl_wrapper_3.kl_square_right #kl_banner_left {
+  background: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_square_right #kl_banner #kl_description,
+#kl_wrapper_3.kl_square_right #kl_banner .kl_subtitle {
+ border-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_square_right #kl_banner #kl_description {
+  border-color: #03244d;
+}
+#kl_wrapper_3.kl_square_right h3:not(.ui-state-default) {
+ background-color: #fff;
+ color: #000;
+ border-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_square_right #kl_banner .kl_subtitle {
+ color: #03244d;
+}
+#kl_wrapper_3.kl_square_right #kl_navigation ul li i {
+ background: #03244d;
+ color: #fff;
+ border-left: 1px solid #fff;
+}
+#kl_wrapper_3.kl_square_right > div > i,
+#kl_wrapper_3.kl_square_right h3:not(.ui-state-default) i {
+ background: #03244d;
+ color: #fff;
+}
+#kl_wrapper_3.kl_square_right #kl_navigation ul li a,
+#kl_wrapper_3.kl_square_right #kl_navigation ul li a:visited {
+ background: #fff;
+ color: #000;
+ border-color: #03244d;
+ text-decoration: none;
+}
+#kl_wrapper_3.kl_square_right #kl_navigation ul li a:hover,
+#kl_wrapper_3.kl_square_right #kl_navigation ul li a:focus {
+ background: #03244d;
+ color: #FFF;
+}
+#kl_wrapper_3.kl_square_right #kl_navigation ul li a:hover i,
+#kl_wrapper_3.kl_square_right #kl_navigation ul li a:focus i {
+ background: #cc4e0b;
+ color: #fff;
+}
+
+/* 2 */
+#kl_wrapper_3.kl_square_right.variation_2 h2 {
+  background: #03244d;
+  color: #fff;
+}
+#kl_wrapper_3.kl_square_right.variation_2 #kl_banner_left {
+  background: #cc4e0b;
+  color: #fff;
+}
+#kl_wrapper_3.kl_square_right.variation_2 #kl_banner #kl_description,
+#kl_wrapper_3.kl_square_right.variation_2 #kl_banner .kl_subtitle {
+ border-color: #03244d;
+}
+#kl_wrapper_3.kl_square_right.variation_2 > div > i,
+#kl_wrapper_3.kl_square_right.variation_2 h3:not(.ui-state-default) i {
+ background: #cc4e0b;
+ color: #fff;
+}
+#kl_wrapper_3.kl_square_right.variation_2 #kl_navigation ul li a,
+#kl_wrapper_3.kl_square_right.variation_2 #kl_navigation ul li a:visited {
+ background: #fff;
+ color: #000;
+ border-color: #cc4e0b;
+}
+#kl_wrapper_3.kl_square_right.variation_2 #kl_navigation ul li a:hover i,
+#kl_wrapper_3.kl_square_right.variation_2 #kl_navigation ul li a:focus i {
+ background: #03244d;
+ color: #fff;
+}
+#kl_wrapper_3.kl_square_right.variation_2 #kl_navigation ul li a:hover,
+#kl_wrapper_3.kl_square_right.variation_2 #kl_navigation ul li a:focus {
+ background: #cc4e0b;
+ color: #fff;
+}
+#kl_wrapper_3.kl_square_right.variation_2 h3 {
+  background: #fff;
+  color: #03244d;
+  border-color: #03244d;
+}
+#kl_wrapper_3.kl_square_right.variation_2 #kl_navigation ul li i {
+ background: #03244d;
+ color: #fff;
+}
+
+/*********************************************************************/
+/***** Override Default Uppercase for all themes  ********************/
+#kl_wrapper_3.kl_basic_bar h3:not(.ui-state-default),
+#kl_wrapper_3.kl_circles_overlap #kl_banner #kl_banner_right,
+#kl_wrapper_3.kl_circles_overlap #kl_banner #kl_banner_right,
+#kl_wrapper_3.kl_colored_headings_box_left #kl_banner h2,
+#kl_wrapper_3.kl_colored_headings #kl_banner h2,
+#kl_wrapper_3.kl_colored_headings #kl_banner .kl_subtitle,
+#kl_wrapper_3.kl_colored_headings_box_left > div > h3:not(.ui-state-default),
+#kl_wrapper_3.kl_colored_headings > div > h3:not(.ui-state-default),
+#kl_wrapper_3.kl_colored_headings_box_left h4,
+#kl_wrapper_3.kl_colored_headings h4,
+#kl_wrapper_3.kl_flat_sections_main #kl_banner h2,
+#kl_wrapper_3.kl_flat_sections #kl_banner h2,
+#kl_wrapper_3.kl_flat_sections #kl_banner .kl_subtitle,
+#kl_wrapper_3.kl_flat_sections h3:not(.ui-state-default),
+#kl_wrapper_3.kl_flat_sections_main h4,
+#kl_wrapper_3.kl_flat_sections h4,
+#kl_wrapper_3.kl_ribbons_main #kl_banner #kl_banner_left,
+#kl_wrapper_3.kl_ribbons_main #kl_banner .kl_subtitle,
+#kl_wrapper_3.kl_rounded_inset h3:not(.ui-state-default),
+#kl_wrapper_3.kl_rounded_inset_1 h3:not(.ui-state-default),
+#kl_wrapper_3.kl_rounded_inset_2 h3:not(.ui-state-default),
+#kl_wrapper_3.kl_rounded_inset_3 h3:not(.ui-state-default),
+#kl_wrapper_3.kl_rounded_inset #kl_banner .kl_subtitle,
+#kl_wrapper_3.kl_rounded_inset_1 #kl_banner .kl_subtitle,
+#kl_wrapper_3.kl_rounded_inset_2 #kl_banner .kl_subtitle,
+#kl_wrapper_3.kl_rounded_inset_3 #kl_banner .kl_subtitle {
+   text-transform: none;
+}
+/*********************************************************************/
+/***** END DESIGN TOOLS THEME CUSTOMIZATIONS *************************/
+/********************************************************************/
+
+*************************************************************/
+/*****    AONLINE DEFAULT THEME        *******************************/
+
+
+/* Default Font, Size, and Color */
+  /* Setting Lato and 15px as the default font and font size*/
+  #kl_wrapper_3.aonline_default {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+  }
+/* End Default Font, Size, and Color */
+
+
+/* Basic Elements */
+  /* Header 2 Element Defaults */
+  #kl_wrapper_3.aonline_default h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 44pt;
+    color: black;
+    line-height: 1em;
+  }
+  /* Header 3 Element Defaults */
+  #kl_wrapper_3.aonline_default h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25pt;
+    letter-spacing: 1pt;
+    color: #464646;
+  }
+  /* Header 4 Element Defaults (margin left is 30px) */
+  #kl_wrapper_3.aonline_default h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13pt;
+    color: #464646;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+  }
+  /* Paragraph Element Defaults */
+  #kl_wrapper_3.aonline_default p {
+    font-size: 12pt;
+    color: #464646;
+  }
+  /* Underline beneath under other elements (default color is orange) */
+  #kl_wrapper_3.aonline_default hr {
+    border-color: #FF7110;
+    border-width: 4px;
+    width: 15%;
+  }
+  /* Setting color and font size of normal lists (helps when converting pages) */
+  #kl_wrapper_3.aonline_default li{
+   font-size: 17px;
+   color: #464646;
+  }
+  /* Icons do not appear in Headers unless they have a style display: inline-block */
+  #kl_wrapper_3.aonline_default h1 i{
+   display: none;
+  }
+  #kl_wrapper_3.aonline_default h2 i{
+   display: none;
+  }
+  #kl_wrapper_3.aonline_default h3 i{
+   display: none;
+  }
+  #kl_wrapper_3.aonline_default h4 i{
+   display: none;
+  }
+  /* Icons on the progress bar appear */
+  #kl_wrapper_3.aonline_default .kl_progress_icons li a i {
+    display: block;
+  }
+/* End Basic Elements */
+
+
+/* Banner Elements */
+  /* Allow Unit name and Unit number to be sized correctly */
+  #kl_wrapper_3.aonline_default #kl_banner_left {
+    width: auto;
+    height: auto;
+    border: none;
+    margin-right: 10px;
+  }
+  /* Having the Unit Number to appear right next to the Unit name */
+  #kl_wrapper_3.aonline_default #kl_banner_left.kl_mod_text {
+    display: inline-block;
+  }
+  /* Hide AU logo in the banner unless style has display: inline-block */
+  #kl_wrapper_3.aonline_default #kl_banner h2 img {
+    display: none;
+  }
+  /* Header 2 specifically in the banner */
+  #kl_wrapper_3.aonline_default #kl_banner h2 {
+    font-size: 44pt;
+    color: black;
+    background: white;
+  }
+  /* Banner images takes up the width canvas allows */
+  #kl_wrapper_3.aonline_default .kl_image_full_width {
+    width: 100%;
+    max-height: 100%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  /*  */
+  #kl_wrapper_3.aonline_default .course_header {
+    font-size: 13pt;
+    color: #464646;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+  }
+  #kl_wrapper_3.aonline_default .kl_subtitle {
+    text-align: left;
+    border: none;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #kl_wrapper_3.aonline_default .kl_description {
+    text-align: left;
+    border: none;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #kl_wrapper_3.aonline_default .beginButton {
+    padding: 10px 30px 10px 30px;
+    border: solid 2px orange;
+    color: orange;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16pt;
+    background-color: white;
+  }
+/* End Banner Elements */
+
+
+/* Single Link Module List */
+  #kl_wrapper_3.aonline_default .ig-header {
+      display: none;
+  }
+  #kl_wrapper_3.aonline_default .ig-row {
+      border: none;
+      padding: 22px;
+      padding-left: 0;
+      background-color: white;
+      cursor: pointer;
+  }
+  #kl_wrapper_3.aonline_default .ig-row:hover {
+      background-color: rgba(0,0,0,.1);
+  }
+  #kl_wrapper_3.aonline_default .ig-row .type_icon {
+      display: none;
+  }
+  #kl_wrapper_3.aonline_default .ig-row .ig-title {
+      color: gray;
+      font-size: 16pt;
+  }
+  #kl_wrapper_3.aonline_default .context_module_item {
+      max-width: auto;
+      padding: 0px;
+      padding-right: 0;
+      border: none;
+  }
+  #kl_wrapper_3.aonline_default .context_module_item.context_module_item_hover, .context_module_item:hover {
+    background-color: #EDEDED;
+  }
+  #kl_wrapper_3.aonline_default .context_module_item .ig-row{
+      background-color: inherit !important;
+  }
+  #kl_wrapper_3.aonline_default .ig-list  {
+    background-color: white;
+  }
+  #kl_wrapper_3.aonline_default .item-group-condensed {
+    padding: 0px;
+  }
+/* End Single Link Module List */
+
+
+/* All Links Module List */
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed > ul.ui-tabs-nav {
+    text-align: center;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed .ui-state-hover {
+    text-decoration: none;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed .ui-state-hover a {
+    color: white !important;
+    background-color: gray !important;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed .ui-state-active a {
+    color: white !important;
+    background-color: #545454 !important;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_connected_module {
+    width: 100%;
+    border: none;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed .ui-widget-content {
+      border: none;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed .ui-widget-content a:hover {
+      text-decoration: none;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed ul.ui-tabs-nav li.ui-tabs-active a {
+      border: none;
+      font-size: 13pt;
+      box-shadow: none;
+      color: #545454;
+      background: white;
+      letter-spacing: 1px;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed ul.ui-tabs-nav a {
+      border: none;
+      font-size: 20pt;
+      box-shadow: none;
+      color: #545454;
+      background: white;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed > ul.ui-tabs-nav li {
+    margin: 10px;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed > ul.ui-tabs-nav li {
+      background: white;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed > ul.ui-tabs-nav a {
+      width: auto !important;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed .ig-list .ig-row.ig-published:not(.student-view)::before {
+    background-color: #FF7110;
+    border-top-color: #FF7110;
+    border-bottom-color: #FF7110;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed > ul.ui-tabs-nav li {
+    border-radius: 0px;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules .ui-state-hover {
+    background-color: grey;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules>ul li i,#kl_wrapper_3.aonline_default #kl_modules>ul li i[class^=icon-]:before {
+   display:none;
+   width:25px;
+   text-align:center
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_first {
+    border: none;
+    margin-left: 40px;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_first > ul li a {
+    color: inherit;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_first>ul li a {
+   font-size: 14pt;
+   line-height: 18pt;
+   color: inherit;
+   text-decoration: none;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_first>ul li {
+   white-space: normal;
+   width: 85%;
+   display: inline-block;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_first>ul li a:hover {
+   color: inherit;
+   text-decoration: none;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed > ul.ui-tabs-nav li a {
+    border-radius: 0px;
+    font-size: 13pt;
+    letter-spacing: 1px;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_tabbed .ui-widget-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_first li {
+    width: auto;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_first .ui-tabs-tab,.ui-tabs-active,.ui-state-active {
+    width: auto;
+    text-decoration: none !important;
+  }
+  #kl_wrapper_3.aonline_default .ui-tabs .ui-tabs-nav li a {
+    text-decoration: none !important;
+  }
+  #kl_wrapper_3.aonline_default .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    padding-bottom: 0px;
+  }
+  #kl_wrapper_3.aonline_default #kl_modules.kl_modules_first li:hover {
+      background-color: #EDEDED;
+  }
+  #kl_wrapper_3.aonline_default .ui-tabs .ui-tabs-nav li {
+    border: 1px solid black !important;
+  }
+/* End All Links Module List */
+
+
+/* Teacher & TA Elements */
+  /* Wrapper for all elements pretaining to the teacher */
+  #kl_wrapper_3.aonline_default .kl_teacher_info {
+    position: absolute;
+    left: 100px;
+    transform: translateY(15%);
+    width: 400px;
+    color:  #464646;
+  }
+  /* The CSS for the image of the teacher (assumed banner sized) */
+  #kl_wrapper_3.aonline_default .kl_teacher_image {
+    float:left;
+    margin:0 15px 15px 0;
+    box-sizing:border-box;
+    min-width: 1000px;
+  }
+  /* Different text look for the teacher's name */
+  #kl_wrapper_3.aonline_default .kl_teacher_name {
+    font-size: 24pt;
+    text-transform: uppercase;
+    line-height: 27pt;
+  }
+  /* Different text look for the teachers information, phone, office, email */
+  #kl_wrapper_3.aonline_default .kl_teacher_contact {
+    font-size: 19pt;
+    line-height: 27pt;
+  }
+  /* Different text for a quote or whatever a teacher wants to say to their students directly */
+  #kl_wrapper_3.aonline_default .kl_teacher_quote {
+    font-size: 13pt;
+    line-height: 18pt;
+  }
+/* End Teacher & TA Elements */
+
+
+/* Default Table */
+  /* Table wrapper for the default table */
+  #kl_wrapper_3.aonline_default table {
+    border-collapse : separate !important;
+    width: 98% !important;
+    margin: auto !important;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-spacing: 15px;
+    border-left: solid black;
+    border-right: solid black;
+    border-top: solid grey;
+    border-bottom: solid grey;
+    border-width: 2px;
+  }
+  /* First element of the columns (default orange color) */
+  #kl_wrapper_3.aonline_default table tr:first-child td {
+    border: 0px;
+    letter-spacing: 1pt;
+    font-size: 15pt;
+    color: #C06700;
+    padding-top: 5px;
+    border-bottom: solid grey;
+    border-width: 2px;
+  }
+  /* Elements of columns that are not the first elements */
+  #kl_wrapper_3.aonline_default table td {
+    font-size: 15pt;
+    border: 0px;
+    letter-spacing: .5pt;
+    text-align: center;
+    position: relative;
+    height: 1%;
+    padding: 5px 10px 5px 10px;
+    border-bottom: solid grey;
+    border-width: 1px;
+  }
+/* End Default Table */
+
+
+/* Module at a Glance Table */
+  /* Table wrapper for Module at a glance table */
+  #kl_wrapper_3.aonline_default .mod_glance table {
+    border-collapse : collapse !important;
+    width: 98% !important;
+    margin: auto !important;
+    border: none;
+  }
+  /* First element of the rows, row topics */
+  #kl_wrapper_3.aonline_default .mod_glance table tr:first-child td {
+    height: 100px;
+    border: 0px;
+    letter-spacing: 1pt;
+    font-size: 15pt;
+    color: #464646;
+    padding-top: 5px;
+    border: none;
+    text-decoration: underline;
+    text-decoration-color: #D0D0D0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  /* First element of the columns, column topics or dates */
+  #kl_wrapper_3.aonline_default .mod_glance td:first-child {
+    height: 100px;
+    letter-spacing: 1pt;
+    font-size: 15pt;
+    color: #464646;
+    padding-top: 5px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color: #e6e6e6;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  /* CSS for the columns, different border color than the rows */
+  #kl_wrapper_3.aonline_default .mod_glance td {
+    height: 100px;
+    letter-spacing: 1pt;
+    font-size: 15pt;
+    color: #464646;
+    padding-top: 5px;
+    border-bottom: none;
+    border-left: solid;
+    border-right: none;
+    border-width: 1px;
+    border-color: #e6e6e6;
+  }
+  /* CSS for the rows, different border color than the columns */
+  #kl_wrapper_3.aonline_default .mod_glance tr {
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #cccccc;
+  }
+  /* Making sure there is no border on the left or the right of the table */
+  #kl_wrapper_3.aonline_default .mod_glance tr:first-child {
+    border: none;
+  }
+  #kl_wrapper_3.aonline_default .mod_glance tr:last-child {
+    border: none;
+  }
+/* End Module at a Glance Table */

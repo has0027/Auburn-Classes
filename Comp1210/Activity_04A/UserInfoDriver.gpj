@@ -1,0 +1,23 @@
+!1237;s
+J
+SAU0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012GCC_COLORS=\012-Run\012ADD_EXE_PATH==Y\012
+SCU0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012GCC_COLORS=\012-Run\012ADD_EXE_PATH==Y\012
+S+U0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012GCC_COLORS=\012-Run\012ADD_EXE_PATH==Y\012
+SJU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012File\012CLASSPATH+=.%;\012CLASSPATH+=%<SRC_CLASSPATHS>%;\012ProjectOrFile\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Debug +Debug_Applet\012CLASSPATH=+%;%<INJECTION_CLASSPATHS>\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full JDK, not just the JRE, installed.\\nThe JDK is available from http://www.oracle.com/technetwork/java/index.html.\012Run_Applet +Debug_Applet\012ADD_APPLETVIEWER_CLASSPATH==Y\012Document\012CLASSPATH=+%;%<TOOL_CLASSPATHS>\012CLASSPATH+=%<CLASSES_DIR>%;\012
+SXU0
+SOU0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012GCC_COLORS=\012-Run\012ADD_EXE_PATH==Y\012
+SyU0PATH+=%<PYTHON_PATH>%;\012PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning\012GCC_COLORS=
+SPU0
+s#i0
+s#k0
+s#j0
+s#l0
+!2673;d
+[\012  grasp [\012   legendy -40.5\012   legendx -59.0\012   version 1\012   winflags 3\012   eheight 942\012   ewidth 960\012   height 942\012   width 960\012   wbp 0\012   initlayout 0\012   yoffs 50.603448275862036\012   xoffs -30.663252240717043\012   scale 1.0\012   args ""\012   otherflags 139\012   shallowjar 1\012   visflags 118423807\012  ]\012  directed 1\012  node [\012   ClassInfo [\012    fields "OFFLINE\\011I\\011\\01126\\011\\011\\011UserInfo\011ONLINE\\011I\\011\\01126\\011\\011\\011UserInfo\011age\\011I\\011\\0112\\011\\011\\011UserInfo\011firstName\\011Ljava/lang/String;\\011\\0112\\011\\011\\011UserInfo\011lastName\\011Ljava/lang/String;\\011\\0112\\011\\011\\011UserInfo\011location\\011Ljava/lang/String;\\011\\0112\\011\\011\\011UserInfo\011status\\011I\\011\\0112\\011\\011\\011UserInfo\011UserInfo\\011(Ljava/lang/String;Ljava/lang/String;)V\\011c\\0111\\011\\011\\011UserInfo\011getAge\\011()I\\011\\0111\\011\\011\\011UserInfo\011getLocation\\011()Ljava/lang/String;\\011\\0111\\011\\011\\011UserInfo\011logOff\\011()V\\011\\0111\\011\\011\\011UserInfo\011logOn\\011()V\\011\\0111\\011\\011\\011UserInfo\011setAge\\011(I)Z\\011\\0111\\011\\011\\011UserInfo\011setLocation\\011(Ljava/lang/String;)V\\011\\0111\\011\\011\\011UserInfo\011toString\\011()Ljava/lang/String;\\011\\0111\\011\\011\\011UserInfo"\012    condition 0\012    access2 0\012    access 2228257\012    classname "UserInfo"\012    fromclassfiledate 1517787006643\012    fromclassfilename "%\011UserInfo.class"\012    fromfilename "%\011UserInfo.java"\012   ]\012   id 0\012   graphics [\012    center [\012     x -37.0\012     y -8.000000000000057\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    fields "UserInfoDriver\\011()V\\011c\\0111\\011\\011\\011UserInfoDriver\011main\\011([Ljava/lang/String;)V\\011\\0119\\011\\011\\011UserInfoDriver"\012    condition 0\012    access2 0\012    access 2490401\012    classname "UserInfoDriver"\012    fromclassfiledate 1517787547676\012    fromclassfilename "%\011UserInfoDriver.class"\012    fromfilename "%\011UserInfoDriver.java"\012   ]\012   id 1\012   graphics [\012    center [\012     x -142.0\012     y 91.0\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  edge [\012   ClassInfo [\012    dependencies "UserInfo\\011(Ljava/lang/String;Ljava/lang/String;)V\\011c\\011\\011\\011\\011UserInfo\011logOn\\011()V\\011\\011\\011\\011\\011UserInfo\011setAge\\011(I)Z\\011\\011\\011\\011\\011UserInfo\011setLocation\\011(Ljava/lang/String;)V\\011\\011\\011\\011\\011UserInfo"\012    type 3\012   ]\012   source 0\012   target 1\012  ]\012 ]!44;g
+%\011UserInfo.java
+%\011UserInfoDriver.java
+!44;f
+%\011UserInfo.java
+%\011UserInfoDriver.java
+!94;t
+jgrCheckstyle0xr	%\011UserInfo.java	1517864602158:P	%\011UserInfoDriver.java	1517864602158:P	

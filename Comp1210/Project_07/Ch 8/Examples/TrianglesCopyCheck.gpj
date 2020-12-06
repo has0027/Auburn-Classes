@@ -1,0 +1,20 @@
+!1339;s
+J
+SAU0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012-Run\012ADD_EXE_PATH==Y\012
+SCU0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012-Run\012ADD_EXE_PATH==Y\012
+S+U0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012-Run\012ADD_EXE_PATH==Y\012
+SJU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012File\012CLASSPATH+=.%;\012CLASSPATH+=%<SRC_CLASSPATHS>%;\012ProjectOrFile\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Debug +Debug_Applet\012CLASSPATH=+%;%<INJECTION_CLASSPATHS>\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full JDK, not just the JRE, installed.\\nThe JDK is available from http://www.oracle.com/technetwork/java/index.html.\012Run_Applet +Debug_Applet\012ADD_APPLETVIEWER_CLASSPATH==Y\012Document\012CLASSPATH=+%;%<TOOL_CLASSPATHS>\012CLASSPATH+=%<CLASSES_DIR>%;\012
+SOU0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012-Run\012ADD_EXE_PATH==Y\012
+SyU0PATH+=%<PYTHON_PATH>%;\012PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SPU0PATH+=C:\\MASM611\\BIN;\012PATH+=%<JGRASP_PATHS>%;\012LIB+=C:\\MASM611\\LIB;\012INCLUDE+=C:\\MASM611\\INCLUDE;\012HELPFILES+=C:\\MASM611\\HELP\\*.HLP;\012ASMEX+=C:\\MASM611\\SAMPLES;
+s#i0
+s#k0
+s#j0
+s#l0
+!791;d
+[\012  grasp [\012   legendy -33.0\012   legendx -0.25\012   version 1\012   winflags 3\012   eheight 1080\012   ewidth 960\012   height 1080\012   width 960\012   wbp 0\012   initlayout 0\012   yoffs 1.0833333333333144\012   xoffs -1.8333333333333144\012   scale 1.0\012   args ""\012   otherflags 139\012   shallowjar 1\012   visflags 118423807\012  ]\012  directed 1\012  node [\012   ClassInfo [\012    condition 1\012    access2 0\012    access 2097152\012    classname "TrianglesCopyCheck"\012    fromclassfiledate 0\012    fromclassfilename "%\011TrianglesCopyCheck.class"\012    fromfilename "%\011TrianglesCopyCheck.java"\012   ]\012   id 0\012   graphics [\012    center [\012     x -0.5\012     y -0.5\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012 ]!48;g
+%\011TrianglesCopyCheck.java
+%\011Triangle.java
+!48;f
+%\011TrianglesCopyCheck.java
+%\011Triangle.java

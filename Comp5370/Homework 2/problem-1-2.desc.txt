@@ -1,0 +1,1 @@
+For the 2-port firewall I have configured it to accept FTP traffic from the corporate IP as well as accept traffic through the HTTPS port for day to day tasks.

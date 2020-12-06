@@ -1,0 +1,167 @@
+Test 1 Solution - Summer 2020
+
+
+Question 1
+The Open System Interconnection (OSI) model has 7 layers.
+  True
+ 
+Question 2
+In the OSI model, the network layer is the 4th layer from the bottom.
+  False
+ 
+Question 3
+The five layers in the Internet protocol stack are: the application layer, the transport layer, the session layer, the network layer, and the physical layer.
+  False
+ 
+Question 4
+In general, packet switching performs well for bursty data.
+  True
+
+Question 5
+The main difference between virus and worms is that virus can be self-replicated; no human interaction is required.
+  False
+ 
+Question 6
+Consider an application that transmits data at a steady rate (for example, the sender repeatedly generates an N-bit unit of data every k time units, where k is small and fixed). Also, when such an application starts, it will continue running for a relatively long period of time. A packet-switched network would be more appropriate for this application.
+  False
+ 
+Question 7
+Modularization simplifies the design and implementation of network systems by separating the interface from implementation.
+  True
+
+Question 8
+Frequency-division multiplexing (FDM) is a technique used in some circuit switches.
+  False
+
+Question 9
+Consider a circuit-switched network shown in Figure 1, showing four channels/circuits in each of the links.
+The maximum number of simultaneous connections that can be in progress at any time is 16.
+  True
+ 
+Question 10
+A user requests a Web page that consists of some text and three images, each of which is addressed by a URL. For this page, the client will send one request message and receive four response messages.
+  False
+ 
+Question 11
+Two distinct Webpages (for example, www.auburn.edu/research.html and www.auburn.edu/students.html) can be sent over the same persistent connection.
+  True
+ 
+Question 12
+With non-persistent connections between the browser and the origin server, it is possible to send two distinct HTTP request messages through one connection.
+  False
+
+Question 13
+The Date: header in the HTTP response message indicates when the object in the response was last modified.
+  False
+ 
+Question 14
+HTTP response messages may contain an empty message body.
+  True
+ 
+Question 15
+Suppose there are N routers from source to destination. Let L denotes the number of bits in a packet, R denotes the transmission rate.  What is the total end-to-end delay in sending one packet from source to destination?
+  N*L/R
+  
+---------------------------------------------------------------------------------------------------------------------------
+  
+Answer Questions 16 and 17 using the following information. Suppose there are in total 15 users sharing a 200 Mbps link. Also suppose each user requires a bandwidth of 25 Mbps when transmitting, but each user transmits only 30 percent of the time.
+ 
+Question 16
+Suppose circuit switching is used, what is the maximum number of users that can be supported?
+  8
+ 
+Question 17
+Suppose packet switching is used, what is the probability that exactly one user is transmitting?
+  0.031
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Answer Questions 18 to 22 using the following information:
+
+When a packet is being forwarded by a router to another router in a network, there are often some delays. Let L denotes packet length (bits), R denotes link bandwidth(bps), x denotes length of a physical link, s denotes propagation speed in medium, n denotes number of packets in the queue, k denotes number of bits in the packet that has currently been transmit.
+ 
+Question 18
+Consider all the delay components when sending a packet from a source host to a destination host over a fixed route. Which of these delays is variable?
+  Queuing delays
+ 
+Question 19
+How is transmission delay calculated or estimated?
+  d = L/R
+ 
+Question 20
+How is queuing delay calculated or estimated?
+  Time waiting at output link for transmission. d = ((L-k)+N*L)/R  
+
+Question 21
+How is processing delay calculated or estimated?
+  Normally less than 1 msec
+ 
+Question 22
+How is propagation delay calculated or estimated?
+  d = x/s
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Question 23
+What are the two key functions for the network layer in the Internet?
+  Routing and Forwarding
+ 
+Question 24
+Suppose there is exactly one packet switch between a sending host and a receiving host. The transmission rates between the sending host and the switch and between the switch and the receiving host are R1 and R2, respectively. Assuming that the switch uses store-and-forward packet switching, what is the total end-to-end delay to send a packet of length L? (Ignore queuing, propagation delay, and processing delay.)
+  L/R1 + L/R2
+ 
+Question 25
+Again, suppose as in the previous question that there is exactly one packet switch between a sending host and a receiving host. The transmission rates between the sending host and the switch and between the switch and the receiving host are both R, respectively. Assuming that the switch uses store-and-forward packet switching, what is the total end-to-end delay to send three packets of length L each? (Ignore queuing, propagation delay, and processing delay.)
+  4L/R
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Answer Questions 26 to 28 using the following information:
+
+Consider the scenario shown below, where there are 3 connections between the client and the server. Each connection consists of 5 links with transmission rates as shown in Figure 2. All connections use a shared link R, whose capacity of 120 Mbps is shared equally among the 3 connections.
+ 
+Question 26
+What is the maximum achievable end-to-end throughput for the client and the server if only one connection can be used?
+  40 Mbps
+ 
+Question 27
+If the server can use all 3 parallel connections to send data, what is the maximum throughput that the server can achieve?
+  100 Mbps
+ 
+Question 28
+Assuming that the server is sending at the maximum rate possible, what is the link utilization for the shared link R?
+  83%
+
+
+Question 29
+Suppose there is a router that is transmitting packets. Each packet has a length of 12000 bits and is transmitted over a single link with a transmission rate of 1 Mbps to another router at the other end of the link. What is the maximum number of packets per second that can be transmitted by this link?
+  83 packets/sec
+ 
+Question 30
+The following are the Inter-networking principles that are used for successfully developing the Internet:
+
+      i. Stateless routers
+
+      ii. Reliable connections
+
+     iii. Decentralized control
+
+      iv. Minimalism and autonomy
+
+  i, iii and iv only
+ 
+Question 31
+What is the main reason for using layering principle for organizing the different modules of a complex network system?
+  It prevents deadlocks
+ 
+Question 32
+To simplify development of complex network systems, we break the system into simpler modules, where each module consist of two parts: (1) interface which is well-known and accessible by users, and (2) implementation which is hidden from users. What is the main purpose for hiding the implementation?
+  The implementation can be modified without modifying the user programs
+ 
+Question 33
+What is the main reason why the client-server model is used more widely for developing network applications than the peer-to-peer model?
+  The client-server model is simpler and recovers from failure easily
+ 
+Question 34
+Why are most network applications in the Internet based on stateless client-server model, e.g. stateless HTTP protocol?
+  It is difficult to maintain states of the server and client that are consistent with each other

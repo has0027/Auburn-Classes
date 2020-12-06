@@ -1,0 +1,270 @@
+
+<!-- saved from url=(0058)http://times.cs.uiuc.edu/course/510f17/notes/midterm1.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head><body>
+<h2 align="center">		Review  List for <a href="http://times.cs.uiuc.edu/course/510f17/">CS510 </a>Midterm I </h2>
+<br>
+<br>
+<b> <font size="4"> Note: </font></b> The first midterm exam of CS510 will be on Thursday, Oct. 5, 2017. It will be a closed book exam and last for 1 hour 15 minutes (11:00am-12:15pm).    
+<b>Calculator is not allowed</b>. You 
+are not allowed to bring any paper or written material either.  (You can use the back side of the examination sheet
+as Scratch paper.)
+The exam will start promptly at 11:00am, so please arrive before 11:00am. 
+
+<h2> General advice </h2>
+
+The best way to prepare for this exam is to make sure that you 
+review all the lectures and make sure that you fully digest all the
+lectures. Review all the home work problems you've worked on and make sure that
+you can reproduce all of them. Pay special attention to the topics listed below. 
+Ask questions if you have trouble with following the materials (we strongly encourage you to use the Piazza
+to discuss the materials and help each other learning). The earlier you ask a question, 
+the more likely it will 
+be answered. 
+
+
+<h2> Specific topics to be covered in Midterm Exam I</h2> 
+
+You are expected to know the following: 
+
+<ol>
+<li><b> know some basic concepts in IR </b>
+<p> 
+You should know the following basic concepts which belong to the 
+pre-requisite of the 
+course: Evaluation measures such as Precision, Recall, Average 
+Precision, Mean Average Precision, F measure, Mean Reciprocal Rnank, and
+ nDCG; basic idea of vector space model and the major heuristics for 
+term weighting
+such as TF-IDF weighting and document length normalization; basic idea 
+of inverted index and why it can help scoring documents quickly; 
+different types of feedback, including pseudo-relevance feedback, 
+relevance feedback, and implicit feedback.
+
+</p></li><li> <b>have a good understanding of random variable, 
+conditional probability, and the Bayes rule. You need to remember the 
+Bayes Rule.  </b>
+
+<p>
+It's especially important to understand the Bayes rule, which has a lot of applications. 
+First, you should remember the Bayes rule. Second, you should know how Bayes rule 
+ provides a general way of making probabilistic inference: 
+we would update our prior p(H) based on data likelihood p(E|H) and obtain the so-called posterior probability
+p(H|E) ("posterior" in the sense that this is "after observing evidence E"). The prior p(H) represents our belief 
+about the hypothesis <em> before</em> we see the evidence E (i.e., data), whereas the posterior p(H|E) represents our updated belief about hypothesis H <em> after</em> we have seen evidence E.   
+</p><p> We have seen the use of Bayes rule to make 
+probabilistic inference in text categorization, where a 
+hypothesis H is a category of a document and the evidence E is a 
+document. You have worked on such an applicaiton in Assignment One. Make
+ sure that you review that problem and know how to solve that problem.  
+
+<br><br></p></li><li><b> know the basic idea of maximum likelihood 
+estimation and know how to compute the maximum likelihood estimate of a 
+multinomial distribution (i.e., relative frequency).  </b>
+<p> You'll first need to know how to write down a likelihood function for a simple case like when the data is
+a document with a sequence of words w1 w2 ... wn and we have a unigram language model p(w|theta). In this case, 
+the probability of observing the document (i.e., word sequence w1, ..., wn) from the language model is
+p(d|theta)=p(w1|theta)*p(w2|theta)*...*p(wn|theta). If we take logarithm of both sides, we have
+log p(d|theta)= [log p(w1|theta)] +[log p(w2|theta)] +...[log p(wn|theta)]. 
+If we use c(w,d) to represent the count of word w in d, we have
+log p(d|theta)= sum_{all words W in vocabulary set} c(W,d)*log p(W|theta). 
+</p><p> Then you should know that the Maximum Likelihood (ML) estimator 
+is to find an optimal setting of the language
+model p(w|theta) (i.e., optimal setting of the probability of each word 
+in our vocabulary p(w|theta)) so
+that p(d|theta), or equivalently log p(d|theta), would achieve the 
+maximum value. In other words, 
+if we set these word probabilities different values than their ML 
+estimate, p(d|theta) would be smaller. 
+The ML estimate is optimal in the sense that it maximizes the likelihood
+ of the observed data, i.e., it finds
+the parameter setting that best explains the data. However, when the 
+observed data sample is too small (e.g., 
+the title of a document), it may be a biased representation of the 
+entire population (e.g., the whole article),
+so if we overfit the observed data as the ML estimator would do, our 
+estimated parameter values may not be optimal. 
+For example, we would assign zero probability to all the unseen words 
+(since the ML estimator would try to give as much
+probability mass to the observed words as possible in order to maximize 
+the likelihood of data). 
+You should go over the ML estimation problem that you worked on in 
+Assignment 1 to make sure that you understand
+how that problem is solved. However, we won't ask you to do derivatives 
+in the midterm or derive an ML estimator, but you should know
+the concept and intuition of the ML estimator. 
+</p><p> You should know the fact that the ML estimate of a multinomial 
+distribution (i.e., a unigram language model)
+would give each word w a probability equal to the relative frequency of 
+the word. That is, if the word distribution is theta, and the observed 
+data is a document d, according to the ML estimator, we would have 
+p(w|theta)=c(w,d)/|d| where
+c(w,d) is the count of word w in d, and |d| is the length of document d 
+(i.e., total counts of words in d). 
+
+<br><br></p></li><li> <b>know how to compute entropy, cross entropy, mutual information, and KL-divergence, and know their
+relations. You need to remember the formulas of entropy, KL-divergence, and mutual information.</b>
+<p> You should remember the formulas for entropy, cross entropy and 
+KL-divergence, and mutual information. Their relation is as follows. 
+The KL-divergence D(p||q) of two distributions p and q is equal to 
+H(p,q) - H(p). The mutual information I(X;Y)= H(X)-H(X|Y)=H(Y)-H(Y|X). 
+I(X;Y) is also the KL-divergence between p(X,Y) and P(X)P(Y).  H(p) is 
+the entropy of p which 
+measures the randomness of the distribution p, i.e., the more random p 
+is, the higher H(p) is. When p is uniform, 
+H(p) reaches its maximum. (If you remember the formula of H(p), you 
+should be able to easily see its maximum
+value is log M where M is the number of possible values that the random 
+variable p can take.) When p is entirely concentrated on a single value 
+(i.e., it's actually not random at all), H(p) reaches its minimum which 
+is zero. 
+H(p) can also be interpreted as the minimum number of bits we have to 
+use to compress values following the distribution of p. (Note that we 
+can call p either a random variable or a distribution.) 
+H(p,q) is the cross entropy, which is of a similar form of the function 
+to H(p) with only a small difference. Pay attention to the difference 
+and make sure you understand why this small difference allows us to 
+interpret H(p,q) as 
+the minimum number of bits that we have to use to compress values 
+following distribution p if we <em>"mistakenly"</em> thought that the 
+values follow distribution q (i.e., we use q to design optimal coding). 
+As a result, H(p,q) is always at least as large as H(p) (with a wrong 
+distribution for designing an optimal code, we can never do better than 
+using the original true distribution in terms of compression), and the 
+KL-divergence captures the difference and can be interpreted as the 
+number of bits <em> wasted</em> due to using a wrong distribution for 
+coding. You should also know some basic properties of D(p||q), i.e., 
+it's always non-negative. It's zero iff p=q. The mutual information 
+I(X;Y) measures the association of two random variables X and Y. This 
+can be understood from two perspectives: (1) I(X;Y)=H(X)-H(X|Y). This 
+means that I(X;Y) is the reduction of entropy of X if we know Y. 
+Intuitively, if X and Y are independent, there would be no reduction of 
+entropy of X, thus I(X;Y) would be zero, whereas if X is completely 
+determined by Y, then H(X|Y)=0, so I(X;Y)=H(X). Note that the maximum 
+value of I(X;Y) is max{H(X),H(Y)}. If X is completely determined by Y 
+AND at the same time, Y is completely determined by X, then H(X)=H(Y) 
+since they have the same uncertainty; in general, H(X) and H(Y) can be 
+different, though. (2) I(X;Y) is the KL-divergence of P(X,Y), which is 
+the true joint distribution, and
+p(X)p(Y), which is the joint distribution <em> if </em> X and Y are 
+independent. Thus it essentially measures how far away p(X,Y) is from 
+the assumed joint distribution under the assumption that X and Y are 
+independent, so the two joint distributions are the same, it would  mean
+ that X and Y are indeed independent, and I(X;Y) would be zero. If the 
+two distributions are far away from each other, it would mean that X and
+ Y are far from independent, i.e., they are correlated/associated, and 
+in such a case I(X;Y) would have a higher value. 
+
+<br><br></p></li><li> <b>know what is a statistical language model, what is a unigram language model, what is an n-gram language model</b>
+<p> 
+A statistical language model (SLM) is a distribution over word sequences. Intuitively, it gives
+us a probability for any sequence of words, thus allows us to compare two sequences of words to
+see which has a higher probability. In general, SLMs help capture the uncerstanties associated
+with the use of natural language. For example, in general, non-grammatical sentences would
+have much smaller probabilities than grammatical sentences. Specialized language models can
+be used to answer many interesting questions that are directly related to many information
+management tasks. 
+
+</p><p>
+While there are many different kinds of SLMs, we are particularly interested in the simplest one, i.e., 
+the unigram language models. This model corresponds to a multinomial distribution over words.
+According to this model, a piece of text is "generated" by generating each word <em> independently</em>.
+As a result, the joint probability of generating all the words in a 
+document D=w1 w2 ... wn is simply the product
+of generating each individual word, i.e., p(D)=p(w1)p(w2)...p(wn). Note 
+that in general, the generation of 
+one word may depend on another. For example, having seen "web search" 
+being generated would make the probability
+of further generating a word like "engine" much higher. This means that 
+p(w3="engine" |w1="web", w2="search")
+is much higher than p(w3="engine"). Thus the independence assumption 
+made by the unigram language model doesn't really hold in reality. 
+Indeed, with a bigram LM, we'd have 
+p(D)=p(w1)p(w2|w1)p(w3|w2)...p(wn|wn-1), which would capture local 
+dependency between two adjacent words. More generally, an n-gram language model
+would capture the dependency of a word on the previous n-1 words. 
+You should know what is an n-gram language model, how many parameters are there in an n-gram language model, and why smoothing is needed when estimating an n-gram language model. You should know the major smoothing methods and how they work: additive smoothing, absolute discount, linear interpolation (fixed coefficient), and Dirichlet prior. You are expected to know the formula of these smoothing methods. 
+
+</p></li>
+
+<!-- <p><b>Important slides: </b> slides 3-4, 18-20 in the basic IR concepts lecture;  slides 3-12 in the prob & stat lecture; slides 4-12 in the information theory lecture; slides 3-4, 6-7, 19-25 in the Intro to NLP lecture. -->
+
+
+<!-- The materials covered in this part are the major content to be covered in the midterm, but
+not all the slides in the PowerPoint files will be covered. Indeed, many slides
+are  "optional" slides which are meant for you to read <b> if</b> you are interested in learning 
+more about a topic. Please use the guidelines below to figure out what are the 
+"essential" concepts and  methods that you are expected to know. 
+Note that it is very important that you <b> systematically</b> go over <b> all </b> the slides that I have covered in my lectures, including those "non-essential" slides, rather than just focus on studying the
+"important slides" that I specified.  Similarly, it is also very important
+for you to <b> systematically</b> read the assigned readings rather than
+just try to read a few pages here or there. However, it is okay if you skim over some parts that aren't
+essential while you systematically go over all the materials (both the slides and the readings). This is to ensure that you always have
+the right <b> context</b> and all the necessary background to digest a core topic. 
+
+<p>
+
+ At a high-level, there are three major core IR topics: 1) Evaluation; 2) Retrieval Models; and 3) Efficiency and Scalability. These topics are selected for two reasons:
+First, they represent the most important core topics in IR and are at the foundation of the modern search engines (i.e., ad hoc retrieval technologies). While IR research has made many contributions in other topics
+such as text categorization, clustering, summarization, and information filtering, research on these other topics tend to overlap a lot with research in other fields, especially machine learning, natural language processing, and data mining.
+ In contrast, the selected core topics better represent unique contributions 
+made by IR researchers. Second, while these topics are still active research topics today, research on these
+topics has now reached a "mature" state in that the research results on these topics so far likely will
+still represent the state of the art in the near future. In contrast, other important topics such as personalized search, query intent analysis, user interface, and various IR applications have not yet resulted
+in "stable" technologies, thus knowledge on these topics likely will become out of date soon. Among these topics, 
+retrieval models are most important; they represent the unique contributions made by IR researchers that are important not only for improving search engines, but also for modeling many other ranking problems.  
+Your general goal in reading these materials should be to understand <em>precisely</em> the major techniques
+and research results, so that you can have a solid knowledge background on these core IR topics.  
+
+<p>
+Specifically, 
+-->
+
+ 
+<li> Know how to derive the Robertson-Sparck-Jones (RSJ) model from the 
+initial goal of ranking documents
+based on p(R=1|Q,D) (i.e., understanding why ranking based on p(R=1|Q,D)
+ is equivalent to ranking based
+ on O(R=1|Q,D), how we can then apply Bayes rule and ignore constant not
+ affecting ranking, how we can use "document
+generation" to decompose joint probability, and how we eventually obtain
+ RSJ). What assumptions have been made? If we have examples of relevant 
+and non-relevant documents, how can we estimate the parameters of RSJ 
+model (i.e., pi and qi)? When there are no examples available, under 
+what assumptions would RSJ lead to a retrieval function that scores a 
+document based on sum of IDF-like weights of the matched query terms?  
+</li><li> Know how to derive the query likelihood scoring function p(Q|D, R=1) from the initial goal of ranking documents
+based on p(R=1|Q,D) using "query generation". What assumptions have we made? 
+
+   
+</li><li> Know that p(Q|D,R=1) can be instantiated using two different 
+models corresponding to two different query representations (i.e., 
+multi-Bernoulli and multinomial). What are the independence assumptions 
+made in each case? 
+How are the two assumptions different? 
+</li><li> Assuming that document language models will be smoothed with a collection language model
+as a reference language model, we can rewrite the query likelihood retrieval function 
+as a scoring function similar to a vector space retrieval function with TF-IDF weighting.  
+Make sure you understand how to
+do this derivation exactly. 
+ </li><li> What are the two different roles played by smoothing with a 
+collection language model in the query likelihood retrieval
+method? How can this dual-role of smoothing explain that we need more 
+smoothing for verbose queries than keyword queries? What's the basic 
+idea of two-stage smoothing? 
+ 
+ <!-- <li>  Study slide 79 of the lecture on IR models to understand why query likelihood retrieval function cannot naturally accommodate relevance feedback for the <b> current</b> user, whereas the classic probabilistic can naturally do that. -->
+</li><li> Know the formula of the KL-divergence retrieval function and 
+why it can cover the query likelihood retrieval function as a special 
+case (thus in this sense, generalizing query likelihood). Know how 
+KL-divergence retrieval function 
+can support immediate relevance feedback for the current user (which is 
+an advantage over the query likelihood method). 
+</li>
+
+</ol>
+
+
+
+
+</body></html>

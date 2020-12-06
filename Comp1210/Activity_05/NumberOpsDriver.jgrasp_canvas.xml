@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="1">
+    <Name>oddsUnder</Name>
+    <Signature>()Ljava/lang/String;</Signature>
+    <DeclaringType>NumberOperations</DeclaringType>
+    <Depth>1</Depth>
+  </Scope>
+  <Scope id="0">
+    <Name>main</Name>
+    <Signature>([Ljava/lang/String;)V</Signature>
+    <DeclaringType>NumberOpsDriver</DeclaringType>
+    <Depth>0</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>110</X>
+      <Y>420</Y>
+      <W>72</W>
+      <H>50</H>
+    </Bounds>
+    <LabelLoc>
+      <WO>false</WO>
+    </LabelLoc>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local int` index</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>110</X>
+      <Y>210</Y>
+      <W>578</W>
+      <H>171</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.util.ArrayList` numOpsList</Expression>
+      <ViewerClass>java__lang__Object_LinkedView</ViewerClass>
+      <ViewerData>
+        <StructureData>
+          <Type>Array</Type>
+          <SzExp>(_struct_.elementData == null)? 0 : _struct_.elementData.length</SzExp>
+          <UsedExp>_index_ &lt; _struct_.size</UsedExp>
+          <ElementExp>_struct_.elementData[_index_]</ElementExp>
+          <IndexExp>index</IndexExp>
+        </StructureData>
+        <ViewData/>
+      </ViewerData>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>30</X>
+      <Y>230</Y>
+      <W>72</W>
+      <H>50</H>
+    </Bounds>
+    <LabelLoc>
+      <WO>false</WO>
+    </LabelLoc>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local int` numIn</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>110</X>
+      <Y>510</Y>
+      <W>546</W>
+      <H>46</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local java.lang.String` output</Expression>
+      <ViewerClass>java__lang__String_FormattedView</ViewerClass>
+    </Viewer>
+    <ScopeTest>None</ScopeTest>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>70</X>
+      <Y>60</Y>
+      <W>634</W>
+      <H>116</H>
+    </Bounds>
+    <LabelLoc>
+      <X>-1</X>
+      <Y>32</Y>
+      <H>LEFT</H>
+      <V>CENTER</V>
+    </LabelLoc>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.util.Scanner` in</Expression>
+      <ViewerClass>java__util__Scanner_PresentationView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <TextBox>
+    <Text>The "Scope" for output has been set to "None".</Text>
+    <Position>
+      <X>104</X>
+      <Y>530</Y>
+    </Position>
+  </TextBox>
+  <Size>
+    <W>749</W>
+    <H>773</H>
+  </Size>
+  <ESize>
+    <W>749</W>
+    <H>773</H>
+  </ESize>
+</Canvas>

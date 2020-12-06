@@ -1,0 +1,3 @@
+
+******** /sbin/lspci: Not a text file ********
+

@@ -1,0 +1,24 @@
+http://localhost:5000/othello?op=status&light=1&dark=2&blank=0
+&board=[1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,0,
+        1,1,1,1,1,1,0,0,
+        1,1,1,1,1,1,0,2,
+        1,1,1,1,1,1,1,0,
+        1,1,1,1,1,1,1,1]
+&integrity=8a1c0659575e8cdd01b2e4ff3f431c845e7e7960279bb7abfaa5465e4a755354
+           a0791e44071ebe1e1226badd0fe3794c79c483d9a2a3ab0b1f48906d0d44d86d
+           66753f8bbb35e87b7c5171fb96c84149601ca7ceacffa67694b65a8ef2f6e209
+
+
+http://localhost:5000/othello?op=status&light=1&dark=2&blank=3
+&board=[3,3,3,3,3,3,
+        3,3,3,3,3,3,
+        3,3,1,2,3,3,
+        3,3,2,2,2,3,
+        3,3,3,3,3,3,
+        3,3,3,3,3,3]
+&integrity=66271cbb9037c515e73be3a74a37259a179f2d2861cf4e82130cd579a2141093
+           9c80025a28431ae3757f8acd1ba86e4604fb2ee8885ff7d4e1d44e3d0850297b
+           1f0e6b8e02d6e7705c89bc4f7c819b5b96db3517d84fa68116f79931f8abef9a'}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="0">
+    <Name>main</Name>
+    <Signature>([Ljava/lang/String;)V</Signature>
+    <DeclaringType>ProductArray</DeclaringType>
+    <Depth>0</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>false</AutoSize>
+      <X>90</X>
+      <Y>70</Y>
+      <W>388</W>
+      <H>271</H>
+    </Bounds>
+    <PanelSize>
+      <Key>_X_ElementView0</Key>
+      <Order>4</Order>
+      <W>394</W>
+      <H>312</H>
+    </PanelSize>
+    <PanelSize>
+      <Key>java__lang__Object_LinkedView0</Key>
+      <Order>3</Order>
+      <W>654</W>
+      <H>200</H>
+    </PanelSize>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local Product[]` pArr</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>520</W>
+    <H>599</H>
+  </Size>
+  <ESize>
+    <W>520</W>
+    <H>599</H>
+  </ESize>
+</Canvas>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>true</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="0">
+    <Name>main</Name>
+    <Signature>([Ljava/lang/String;)V</Signature>
+    <DeclaringType>InheritanceExample</DeclaringType>
+    <Depth>0</Depth>
+  </Scope>
+  <Scope id="1">
+    <Name>&lt;init&gt;</Name>
+    <Signature>()V</Signature>
+    <DeclaringType>B</DeclaringType>
+    <Depth>1</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>90</X>
+      <Y>240</Y>
+      <W>134</W>
+      <H>106</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local C` myC</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>290</X>
+      <Y>50</Y>
+      <W>134</W>
+      <H>106</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>this</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+    <ScopeTest>None</ScopeTest>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>90</X>
+      <Y>50</Y>
+      <W>114</W>
+      <H>50</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local A` myA</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>90</X>
+      <Y>130</Y>
+      <W>114</W>
+      <H>78</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local B` myB</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>508</W>
+    <H>563</H>
+  </Size>
+  <ESize>
+    <W>508</W>
+    <H>563</H>
+  </ESize>
+</Canvas>

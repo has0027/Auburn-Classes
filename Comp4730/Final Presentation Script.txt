@@ -1,0 +1,22 @@
+INTRO
+  Hey everyone, my name is Haden Stuart and this is my final presentation. So let's jump right into it.
+
+SLIDE 1
+  With the presented case, we have quite a few ethical issues happening. The most important ethical issue here is the fact that the government is asking you to reveal data which was supposed to be gathered anonymously. This completely goes against the people who are giving this data up while believing they will stay anonymous. The government would then plan on using this data to track and monitor people in hot spots, which would be a complete invasion of privacy. This data was supposed to be anonymized when collected but if we were to keep the data linked to the specific person and then give this to the government, it would be ethically wrong. (Giving up people's personal data like that would completely go against the ACM code of ethics, specifically Code 1.3 Be Honest and Trustworthy as well as Code 1.6 Respect Privacy)
+
+SLIDE 2
+  So who are the stakeholders in this? Well, first of all we have ourself, the director of engineering. Then we have our boss, who is the CEO of Google. We also have to include our team of engineers who have helped come up with the idea of this project. And lastly we have the government, who are demanding we give up our user's personal information.
+
+SLIDE 3
+  Now what exactly are the consequences we would have if we were to just give up the data without talking with anyone? Well for the Pros, we won't have any repercussions from our boss, such as getting fired or suspended. We could possibly save a lot of people from actually getting the virus due to the text alerts the government would send out. Our company will make a lot of money from the stimulus package deal. Our team could personally gain a lot of recognition for helping to minimize the virus. Now for the Cons, we will be going against the privacy of lots of people, since we will be giving away their location and personal data. Our engineers will no longer respect us, since we are doing something so ethically wrong which could even lead them to quit. And if people find out that we agreed to give up their privacy we could be forced to resign by the public.
+
+SLIDE 4
+  So what are some of the actions we could take to mitigate the negative effects of this problem? Well a huge action we could take would be making the data truly anonymized by not keeping the data linked to a specific person as it comes in. This would truly make it impossible for the company to match a person's data to that specific person, which could keep the user's personal data away from government hands.
+  We could also just tell the government that we will personally send emails to people in major hotspots, warning them of the dangers of being too close to others.
+  Or lastly we could agree to send the government phone numbers of people in these high traffic areas instead of sending them all the data we have gathered.
+
+SLIDE 5
+  So out of all the ideas I have provided, I personally think that the best course of action is to completely anonymize the data as it is collected. This way we would nullify any methods to try and use that data as a method of tracking people or otherwise invading their privacy. This could have some effects on different stakeholders such as: The government would probably not be very happy about us giving up an opportunity to track people, and could potentially take action against us. Our CEO might be a bit angry about possibly upsetting the government. Now on the other hand, our engineering team would be very happy that we are not taking away the privacy of the people by releasing the data. And we will not feel morally wrong about giving up our user's privacy to the government.
+
+SLIDE 6
+  And this concludes my final presentation, thank you all for listening.

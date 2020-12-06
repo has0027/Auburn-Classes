@@ -1,0 +1,13 @@
+Bunny Collection
+Pet bunny, Floppy, Holland Lop, 3.5
+Pet bunny, Hopper, Holland Lop Mixed, -4.5
+Pet bunny, Hopster, Holland Lop Mixed, 3..8
+house Bunny, Spot, Really Mixed, 5.8, 0.15
+mouse Bunny, Spots, Mixed, 0.8, 0.15
+House Bunny, Spotster, Sorta Mixed, 5.8, -0.25
+House Bunny, Sam, Mixed, 5.8
+Jumper Bunny, Speedy, English, 6.3, 25.0 
+Jumper Bunny, Speeder, English, 6.1, -15.0 
+fighting bunny, Slugger, Big Mixed, 16.5, 21.0
+Show bunny, Bigun, Flemish Giant, 14.6, 22.0
+show bunny, Big John, Flemish Giant, 15.6, -20.1

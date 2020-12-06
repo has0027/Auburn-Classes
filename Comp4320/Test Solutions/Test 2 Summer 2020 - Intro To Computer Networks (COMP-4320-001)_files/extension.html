@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Honorlock Extension</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://static.honorlock.com/img/favicons/favicon.ico">
+    <link href="extension_data/stack-interface.css" rel="stylesheet" type="text/css" media="all">
+    <link href="extension_data/socicon.css" rel="stylesheet" type="text/css" media="all">
+    <link href="extension_data/iconsmind.css" rel="stylesheet" type="text/css" media="all">
+    <link href="extension_data/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="extension_data/flickity.css" rel="stylesheet" type="text/css" media="all">
+    <link href="extension_data/stack-interface.css" rel="stylesheet" type="text/css" media="all">
+    <link href="extension_data/font-awesome.css" rel="stylesheet" type="text/css" media="all">
+    <link href="extension_data/theme.css" rel="stylesheet" type="text/css" media="all">
+    <link href="extension_data/custom.css" rel="stylesheet" type="text/css" media="all">
+    <link href="extension_data/icon.css" rel="stylesheet">
+    <link href="extension_data/css.css" rel="stylesheet">
+    <link rel="stylesheet" href="extension_data/install_page.css">
+    <script src="extension_data/TweenMax.js"></script>
+    <script src="extension_data/ColorPropsPlugin.js"></script>
+    <script type="text/javascript" src="extension_data/jquery-3.js"></script>
+    <script type="text/javascript" src="extension_data/easypiechart.js"></script>
+    <script type="text/javascript" src="extension_data/scripts.js"></script>
+    <script src="extension_data/bugsnag.js"></script>
+    <script>
+        window.bugsnagClient = bugsnag({
+            apiKey: 'b8bafb20d433582a781493cad4851c2c',
+        })
+    </script>
+<script async="" type="text/javascript" src="extension_data/tracking.js"></script></head>
+<body><div class="main-container" role="main">
+    <!--<div id="hl-livechat"><span class="hl-livechat-text">Need Help?</span></div>-->
+    <section class="elements-title space--xxs text-center">
+        <div class="container">
+            <div class="row">
+                <div id="main-text-container" class="col-sm-12">
+                    <h2 class="main-text">Honorlock Chrome Extension</h2>
+                    <p class="main-text">This exam requires Google Chrome and the Honorlock Chrome Extension.</p>
+                <p id="sub-main-text" class="main-text"><strong>Come back to this page using Google Chrome to continue.</strong></p></div>
+            </div>
+        </div>
+    </section>
+    <section class="switchable feature-large single-section">
+        <div class="container" style="max-width: 750px;">
+            <div class="row">
+                <div id="icon-container" class="col-xs-1 col-sm-5 col-md-5 offset-md-1">
+                    <div id="radial-bar" alt="Extension Required" class="radial radial--active" data-value="5" data-size="260" data-bar-width="8" data-color="#4a90e2" style="height: 260px; width: 260px;">
+                        <i id="icon-visible" class="icon icon--lg color--primary radial__label icon-Chrome" style=""></i>
+                        <i id="icon-staging" class="icon icon--lg color--primary radial__label" style="display: none;"></i>
+                    <canvas height="260" width="260"></canvas></div>
+                </div>
+                <div id="context" class="col-xs-11 col-sm-6 col-md-6 shrink-lg">
+                    <div>
+                        <h2 id="header_text">Google Chrome</h2>
+                        <p id="lead_text" class="lead">Google Chrome is required to use Honorlock</p>
+                        <div id="tos" class="type--fine-print">
+                            <input id="consent-checkbox" type="checkbox" name="consent-checkbox">
+                            I agree to Honorlock's <a id="terms" href="https://honorlock.com/legal/student" target="_blank" tabindex="0">Terms of Service</a> and <a id="privacy" href="https://static.honorlock.com/legal/app_privacy" target="_blank" tabindex="0">Privacy Policy</a>
+                        </div>
+                        <div id="action_button" role="button" class="btn btn--primary type--uppercase" style="margin-top: -8px;" data-toggle="Accept terms to continue" tabindex="1"><span class="btn__text" id="button_text">Download Chrome</span></div>
+                        <div id="tos-notice" class="type--fine-print red-highlight" style="display: none;">
+                            Click agreement checkbox to continue
+                        </div>
+                    </div>
+                    <a href="#" id="instructions-link" class="hidden show" style="margin-top: 10px;">View Installation Guide</a>
+                    <a href="#" id="need-help" role="button" class="show" style="margin-top: 10px;">Need Help?</a>
+                </div>
+        </div>
+    </div></section>
+</div><div class="all-page-modals"><div id="modal-object" class="modal-container modal-container-height-limit" data-modal-index="0">
+        <div class="modal-content">
+            <div class="boxed boxed--lg">
+                <h3 id="modal-header">Default text modal</h3>
+                <hr class="short">
+                <p id="modal-body" class="lead">
+                    Default modal body text
+                </p>
+            </div>
+        <div class="modal-close modal-close-cross"></div></div>
+    </div></div>
+<div id="stopmessage" class="row indent stopmessage">
+    <h2>
+        <span style="font-size: 18pt;">
+            <strong><span style="background-color: #ff0000; color: #e25345; font-size: 36pt;">&nbsp; <span style="color: #ffffff;">&nbsp;STOP &nbsp;</span>&nbsp;</span><br>You are missing the Honorlock Chrome Extension.<br></strong></span><span style="font-size: 14pt;"><strong>You must add extension to continue:</strong>&nbsp;<a id="" class="" title="" href="https://honorlock.com/install" target="_blank">Install Honorlock</a>
+        </span>
+    </h2>
+</div>
+<div id="modal-instance" class="modal-instance">
+    <a id="modal-trigger" class="btn modal-trigger hidden" href="#" data-modal-index="0">
+        <span class="btn__text">
+            Trigger Modal
+        </span>
+    </a>
+    
+</div>
+<script type="text/javascript">
+    // Set availability and environment
+    const services_available  =  1;
+    const debug_mode          =  0;
+    const environment         = 'app';
+    const minimum_chrome_version = 62; // TODO: retrieve via API
+
+    var livechat_id = '11782353';
+
+    // Declare default vars
+    var ext_active, critical_error, manual_download, manual_download_url;
+    var checklist_pos = 0;
+
+    // Page setup
+    // insertChatlio();
+    insertLivechat();
+    getConfig();
+
+    // Retrieve extension install config
+    function getConfig() {
+        fetch('api/get_config.php', {
+            method: 'POST',
+            body: JSON.stringify({env: environment}),
+        })
+        .then(response => response.json())
+        .then(config => setConfig(config))
+        .then(preinstallChecks) // Config retrieved successfully
+        .catch(error => configError(error)) // Config not retrieved
+    }
+
+    // Check browser/ext configuration then init
+    function preinstallChecks() {
+        checkIsChrome()
+            .then(uninstallArchivedIDs)
+            .then(isExtensionActive)
+            .then(compareExtVersions)
+            .catch(caughtError)
+            .finally(initChecklist)
+    }
+
+    // Critical configuration errors (will display error)
+    function configError(error) {
+        // Handle false positive config errors
+        switch (error.message) {
+            // Edge 17 or lower; can continue checklist
+            case "Object doesn't support property or method 'finally'":
+            // Safari 11.0.1 or lower; can continue checklist
+            case "undefined is not a function (near '....finally(initChecklist)...')":
+                initChecklist();
+                return true;
+                break;
+            default:
+                break;
+        }
+        
+        // Check JSON parse error (from api/get_config)
+        bugsnagClient.notify(new Error(error), {
+            metaData: {'HL Meta': {
+                issue: 'Error retrieving or parsing api/get_config.php',
+                environment: environment,
+                api_endpoint: 'https://'+environment+'.honorlock.com/api/extension/mode',
+            }},
+            severity: 'error',
+            beforeSend: function (report) {
+                if (debug_mode) {report.severity = 'info'}
+            },
+        })
+        // Set critical error
+        critical_error = true;
+        initChecklist();
+    }
+
+    function setConfig(config) {
+        // Log config errors for bugsnag breadcrumb
+        if (config.error) {
+            bugsnagClient.leaveBreadcrumb('setConfig error', {
+                fetched: 'api/get_config.php',
+                endpoint: `https://${environment}.honorlock.com/api/extension/mode/`,
+                error: config.error
+            });
+        }
+        
+        // Object destructuring
+        ({ min_ext_version, 
+            unpacked_ext_mode: manual_download,
+            store_extension_id,
+            manual_extension_id,
+            archived_extension_ids
+        } = config.data);
+        archived_ids = JSON.parse(archived_extension_ids);
+
+        // Define extension id used by environment and webstore url
+        use_extension = (manual_download) ? manual_extension_id : store_extension_id;
+        
+        // Set URL for webstore or manual download
+        if (!manual_download) {
+            webstore_url = 'https://chrome.google.com/webstore/detail/'+store_extension_id;
+            archived_ids.push(manual_extension_id);
+        } else {
+            manual_download_url = `https://s3.amazonaws.com/hl-dist/extension/HL-app-ext-man-${min_ext_version}.zip?v=89942`;
+            archived_ids.push(store_extension_id);
+        }
+        return;
+    }
+
+    // Determine if browser is Chrome (non-mobile)
+    function checkIsChrome() {
+        return new Promise((resolve, reject) => {
+            if (typeof chrome !== "undefined" && ChromeIsActive() && !isMobileDevice() && !isLockdownBrowser()) {
+                resolve();
+            } else {
+                reject('Desktop Chrome is not active browser');
+            }
+        });
+    }
+
+    // Uninstall archived extension IDs
+    function uninstallArchivedIDs() {
+        for (let archived_id of archived_ids) {
+            archiveExtension(archived_id);
+        }
+        return;
+    }
+
+    // Check if use_extension is active; get version
+    function isExtensionActive() {
+        // text_var = response.version.test;
+        return new Promise((resolve, reject) => {
+            chrome.runtime.sendMessage(use_extension, {message: "version"}, response => {
+                if (!chrome.runtime.lastError) {
+                    ext_active  = true;
+                    ext_version = response.version;
+                    resolve();
+                }  else {
+                    reject(`Extension not active ${use_extension}`);
+                }
+            });
+        });
+    }
+
+    // Compare extension version to min required; uninstall if out of date
+    function compareExtVersions() {
+        if (cmpVersions(ext_version, min_ext_version) < 0) {
+            ext_active  = false;
+            ext_version = null;
+            archiveExtension(use_extension);
+        }
+        return;
+    }
+
+    // Catches non-Chrome browser and/or ext not installed
+    function caughtError(error) {
+        // Notify bugsnag of exceptions but not promise rejections
+        if (error.constructor.name !== "String") {
+            bugsnagClient.notify(new Error(error), {
+                metaData: {'HL Meta': {environment: environment}}
+            })
+        };
+        if (debug_mode)
+            console.log(error);
+    }
+
+    /* Initialization */
+    function initChecklist() {
+        // If in iFrame add a height limit to the modal container (otherwise would be 2000px)
+        if (inIframe()) {
+            $('#modal-object').addClass('modal-container-height-limit');
+        }
+
+        /* Checklist Setup */
+        checklist_array = [];
+        checklist = [
+            {
+                header_text: 'Install Page Error',
+                lead_text: 'Unable to retrieve install configuration. Please try again in a few minutes. <br> <a href="https://status.honorlock.com" target="_blank"> https://status.honorlock.com</a>',
+                button_text: null,
+                icon: 'icon-Danger',
+                alt_color: '#ffc000',
+                percentage: 100,
+                include_test: critical_error
+            },
+            {
+                header_text: 'Services Unavailable',
+                lead_text: 'Honorlock is temporarily unavailable.<a href="https://status.honorlock.com" target="_blank"> https://status.honorlock.com</a>',
+                button_text: null,
+                icon: 'icon-Danger',
+                alt_color: '#ffc000',
+                percentage: 100,
+                include_test: !services_available
+            },
+            {
+                header_text: 'Desktop Chrome Required',
+                lead_text: 'Mobile devices are not supported for proctored exams',
+                button_text: 'Download Chrome',
+                icon: 'icon-Chrome',
+                alt_color: '#ffc000',
+                percentage: 100,
+                include_test: isMobileDevice()
+            },
+            {
+                header_text: 'Exit Lockdown Browser',
+                lead_text: 'You are using a non-Honorlock Lockdown Browser application. Exit the application and try again using Google Chrome.',
+                button_text: null,
+                icon: 'icon-Delete-Window',
+                alt_color: '#ffc000',
+                percentage: 100,
+                include_test: isLockdownBrowser()
+            },
+            {
+                header_text: 'Google Chrome',
+                lead_text: 'Google Chrome is required to use Honorlock',
+                button_text: 'Download Chrome',
+                icon: 'icon-Chrome',
+                alt_color: null,
+                percentage: 100,
+                include_test: !ChromeIsActive()
+            },
+            {
+                header_text: 'Update Google Chrome',
+                lead_text: 'Google Chrome needs an update',
+                button_text: 'Show Me How',
+                icon: 'icon-Code-Window',
+                alt_color: '#ffc000',
+                percentage: 100,
+                include_test: !ChromeVersionPasses()
+            },
+            {
+                header_text: 'Extension Required',
+                lead_text: 'Add the Honorlock extension to continue',
+                button_text: "Get Started",
+                icon: 'icon-Danger',
+                alt_color: '#f44336',
+                percentage: 100,
+                include_test: isIframedAndNeedsExt() && !manual_download
+            },
+            {
+                header_text: 'Manual Extension Required',
+                lead_text: 'Add the Honorlock extension to continue',
+                button_text: 'Go to Download Page',
+                icon: 'icon-Add-Window',
+                alt_color: null,
+                percentage: 75,
+                include_test: !isExtActive() && inIframe() && manual_download
+            },
+            {
+                header_text: 'Add Extension',
+                lead_text: 'Click below to add the Honorlock Chrome Extension',
+                button_text: 'Add Extension',
+                icon: 'icon-Add-Window',
+                alt_color: null,
+                percentage: 75,
+                include_test: !isExtActive() && !inIframe() && !manual_download
+            },
+            {
+                header_text: 'Download Extension',
+                lead_text: 'Click below to download the Honorlock Chrome Extension',
+                button_text: 'Download Extension',
+                icon: 'icon-Add-Window',
+                alt_color: null,
+                percentage: 75,
+                include_test: !isExtActive() && !inIframe() && manual_download
+            },
+            {
+                header_text: 'Extension Added',
+                lead_text: 'Please navigate back to your Learning Management System and begin your exam.',
+                button_text: null,
+                icon: 'icon-Yes',
+                alt_color: '#49b86b',
+                percentage: 100,
+                include_test: true
+            }
+        ];
+
+        checklist = $.map(checklist, function (item, index) {
+            if (!item.include_test) {
+                return null; // Removes the checklist item
+            }
+            return item;
+        });
+
+        // Instantiate button handler
+        logicHandler();
+
+        // Window message listener
+        windowMessageListener();
+
+        function installGuideModal() {
+            let guideBody = `
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GpLCTSazK04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="text-center small"><em><a href="/extension/assets/guides/Honorlock-Chrome-Extension-Manual-Installation.pdf" target="_blank">(Click here to download install guide)</a></em></div>
+                <ol style="margin: 20px 0 0 20px;font-size:15px;">
+                    <li class="mb-0">Click "Download Extension" link to download extension zip file.</li>
+                    <li class="mb-0">Move downloaded ZIP to Desktop and double-click the zipped file to unzip it.</li>
+                    <li class="mb-0">In your Chrome URL address bar, navigate to "chrome:extensions".</li>
+                    <li class="mb-0">In the top right of the "Extensions" page, toggle on "Developer Mode".</li>
+                    <li class="mb-0">In the top left of the "Extensions" page, click the "Load unpacked" button.</li>
+                    <li class="mb-0">In the file select dialog, navigate to your desktop and select the unzipped "HL-chrome-ext" folder. Click "Select".</li>
+                    <li class="mb-0">The Honorlock extension will now appear and will be active.</li>
+                </ol>
+            `;
+            showModal('How to: Install the Honorlock chrome extension', guideBody);
+        }
+
+        /* Checklist Functions */
+        function nextChecklistStep(initalize) {
+            // Return false if checklist complete
+            if (checklist_pos == checklist.length) {
+                return false;
+            }
+
+            if (!initalize) {
+                checklist_pos++;
+            }
+
+            // logicHanlder for checklist steps with specific logic
+            logicHandler();
+
+            // Update UI components
+            var obj = checklist[checklist_pos];
+            $('#header_text').text(obj.header_text);
+            $('#lead_text').html(obj.lead_text);
+            $('#radial-bar').data('easyPieChart').update(obj.percentage);
+            $('#icon-visible, #icon-staging').removeClass('color-attn color-success color-default');
+            
+            setButtonUI(obj.button_text);
+            setIconUI(obj.icon);
+            
+            if(manual_download && ~obj.header_text.indexOf('Download') ) {
+                $('#instructions-link').removeClass('hidden').click(_ => {
+                    installGuideModal();
+                });
+                if(history.pushState) {
+                    var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?remove=0';
+                    window.history.pushState({path:newurl},'',newurl);
+                }
+            }
+
+            setTimeout(function(){
+                changeIconColor(obj.alt_color);
+                if (obj.header_text == "Extension Added") {
+                    setCompletionUI();
+
+                    // Post complete message to parent window (if framed)
+                    if (window.parent !== window.self) {
+                        window.parent.postMessage({'message': 'successInstall'}, '*')
+                    }
+                }
+            }, 1000);
+        }
+
+        // Is the Chrome Version greater or equal to our min chrome version?
+        function ChromeVersionPasses() {
+            var current_chrome_version = getChromeVersion();
+            if (current_chrome_version >= minimum_chrome_version) {
+                return true;
+            }
+
+            function getChromeVersion () {     
+                var raw = navigator.userAgent.match(/Chrom(e|ium)\/([0-9]+)\./);
+                return raw ? parseInt(raw[2], 10) : false;
+            }
+            showFrame();
+            return false;
+        }
+
+        // Is the extension running?
+        function isExtActive() {
+            if (ext_active) {
+                return true;
+            }
+            return false;
+        }
+
+        // Is this page loaded inside an iframe (ie inside Canvas instructions) and does Ext need an update?
+        function isIframedAndNeedsUpdate() {
+            if (!ExtVersionPasses() && inIframe()) {
+                showFrame();
+                return true;
+            }
+            return false;
+        }
+
+        // Is this page loaded inside an iframe (ie inside Canvas) and extension not running?
+        function isIframedAndNeedsExt() {
+            if (!isExtActive() && inIframe()) {
+                return true;
+            }
+            return false;
+        }
+
+        // Is the extension version greater or equal to our min ext version?
+        function ExtVersionPasses() {
+            if (!ext_active) {
+                return true;
+            }
+
+            if (compareVersions(min_ext_version, ext_version)) {
+                return true;
+            }
+
+            return false;
+        }
+
+        // Handles logic for checklist steps that have specific functionality
+        function logicHandler() {
+            var current_step = checklist[checklist_pos].header_text;
+            setButtonAction(current_step);
+
+            switch(current_step) {
+                case 'Services Unavailable':
+                    logicServicesUnavailable();
+                    break;
+                case 'Desktop Chrome Required':
+                    logicMobileDevices();
+                    break;
+                case 'Google Chrome':
+                    logicGoogleChrome();
+                    break;
+                case 'Update Google Chrome':
+                case 'Manual Extension Required':
+                    break;
+                case 'Update Extension':
+                case 'Add Extension':
+                case 'Download Extension':
+                case 'Update Required':
+                case 'Extension Required':
+                    logicExtensionRequired();
+                    break;
+                case 'Extension Added':
+                    logicComplete();
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        function showUpdateGoogleChromeInfo() {
+            $('#modal-overlay').remove();
+            $('#universal-modal').remove();
+            $("body").append(`
+                <div class="overlay" id="modal-overlay"></div>
+                <div id="universal-modal">
+                    <span id="close-modal">x</span>
+                    <div id="modal-icon">
+                        <span class="fa-stack fa-3x">
+                          <i style="color:#FFBB00;" class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-exclamation-triangle fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <h1 style="font-size: 26px; text-align: center;margin-top:5px;">Chrome browser needs update</h1>
+
+                    <div id="instructions" style="font-size: 14px; text-align: left; padding: 15px 35px;">
+                        <p class="update-chrome-p-steps">Complete these steps to update to the latest version:
+                            <ol style="margin-left: 40px;">
+                                <li class="update-chrome-li-steps">At the top right of browser, click More <img class="update-chrome-img-steps" src="/assets/images/chrome_more.png" width="18" height="18" alt="More" title="More">.
+                                </li>
+                                <li class="update-chrome-li-steps">
+                                    Click <strong>Help</strong>
+                                    <img class="update-chrome-img-steps" src="/assets/images/chrome_arrow.png" width="13" height="18" alt="and then" title="and then">
+                                    <strong>About Google Chrome.</strong>
+                                </li>
+                                <li class="update-chrome-li-steps">
+                                    Click <strong>Relaunch</strong> to apply any available update.
+                                </li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+                `);
+            $("#modal-overlay").fadeIn("slow");
+            $('#close-modal').click(function(){
+                $("#modal-overlay").hide();
+                $("#universal-modal").hide();
+            })
+        }
+
+        function showTermsOfService(bool) {
+            if (bool) {
+                setTimeout(()=> $('#tos').show(), 1000);
+            } else {
+                $('#tos').hide();
+            }
+        }
+
+        function logicComplete() {
+            showTermsOfService(false);
+            $('#stopmessage').hide();
+
+            // Post 'complete' message to parent frame
+            parent.postMessage({'message': 'complete_ext'}, '*');
+        }
+
+        function logicAddExtension() {
+            showTermsOfService(true);
+            disableActionButton();
+        }
+
+        function logicExtensionRequired() {
+            showTermsOfService(true);
+            disableActionButton();
+        }
+
+        function disableActionButton() {
+            $('#action_button').addClass('disabled');
+            $('#action_button').unbind();
+
+            // Add notice to accept terms
+            $("#action_button").click(function () {
+                if($('#tos-notice').is(":hidden")) {
+                    $('#tos-notice').show();
+                    setTimeout(function(){
+                        $('#tos-notice').hide();
+                    }, 3000);
+                }
+            });
+
+            // Listen for consent checkbox change event
+            $('input[name=consent-checkbox]').change(function(){
+                if($(this).is(':checked')) {
+                    enableActionButton();
+                } else {
+                    disableActionButton();
+                }
+            });
+        }
+
+        function enableActionButton() {
+            // Remove tooltip
+            $('#action_button').unbind();
+            $('#action_button').removeClass('disabled');
+            var current_step = checklist[checklist_pos].header_text;
+            setButtonAction(current_step);
+        }
+
+        function logicUpdateExtension() {
+            showTermsOfService(true);
+        }
+
+        function logicMobileDevices() {
+            setTimeout(function(){
+                $('#sub-main-text').remove();
+                $('#main-text-container').append('<p id="sub-main-text" class="main-text"><strong>Come back to this page using Google Chrome for Desktop to continue.</strong></p>');
+            },2000);
+        }
+
+        function logicGoogleChrome() {
+            setTimeout(function(){
+                $('#sub-main-text').remove();
+                $('#main-text-container').append('<p id="sub-main-text" class="main-text"><strong>Come back to this page using Google Chrome to continue.</strong></p>');
+            },2000);
+        }
+
+        function logicServicesUnavailable() {
+            showFrame();
+        }
+
+        // Sets the action for the button
+        function setButtonAction(current_step) {
+            $('#action_button').unbind();
+            $('#action_button').click(function() {
+                switch(current_step) {
+                    case 'Desktop Chrome Required':
+                    case 'Google Chrome':
+                        actionGetChrome();
+                        break;
+                    case 'Update Google Chrome':
+                        showUpdateGoogleChromeInfo();
+                        break;
+                    case 'Update Extension':
+                    case 'Update Required':
+                        actionUpdateExtension();
+                        break;
+                    case 'Manual Extension Required':
+                        actionLaunchManualDownloadPage();
+                        break;
+                    case 'Download Extension':
+                        downloadExtension();
+                        break;
+                    case 'Add Extension':
+                    case 'Extension Required':
+                        actionLaunchInstallPage();
+                        break;
+                    default:
+                        break;
+                }
+            });
+            
+            // Enter key listener (accessibility)
+            $('#action_button').on('keyup', function(event) {
+                if (event.which == 13) {
+                    $('#action_button').trigger('click');
+                }
+            });
+        }
+
+        function actionGetChrome() {
+            window.open('https://chrome.com');
+        }
+
+        function actionUpdateExtension() {
+            // Update uninstalls current ext then prompts to install latest
+            chrome.runtime.sendMessage(use_extension, {message: "uninstallme"});
+            actionLaunchInstallPage();
+            return false;
+        }
+
+        function actionLaunchInstallPage() {
+            window.open(webstore_url);
+            var frameUIinterval = setInterval(function(){
+                if (document.hasFocus()) {
+                    chrome.runtime.sendMessage(use_extension, {message: "version"}, function(response) {
+                        if (response && ExtVersionPasses()) {
+                            nextChecklistStep();
+                        }
+                    });
+                    clearInterval(frameUIinterval);
+                    frameUIinterval = null;
+                }
+            }, 500);
+        }
+
+        // Open iframe URL in new window
+        function actionLaunchManualDownloadPage() {
+            window.open(window.location.href);
+            var frameUIinterval = setInterval(function(){
+                if (document.hasFocus()) {
+                    chrome.runtime.sendMessage(use_extension, {message: "version"}, function(response) {
+                        if (response && ExtVersionPasses()) {
+                            nextChecklistStep();
+                        }
+                    });
+                    clearInterval(frameUIinterval);
+                    frameUIinterval = null;
+                }
+            }, 500);
+        }
+
+        function downloadExtension() {
+            window.open(manual_download_url);
+            installGuideModal();
+        }
+
+        function actionInstallExtension() {
+            actionLaunchInstallPage();
+            return false;
+        }
+
+        /* UI Functions */
+        function setButtonUI(button_text) {
+            if (!button_text) {
+                $('#action_button').hide();
+                return false;
+            }
+
+            $('#action_button').show();
+            $('#button_text').text(button_text);
+        }
+
+        function setIconUI(new_icon) {
+            var animation_time = 750;
+            var current_icon = $('#icon-visible').attr('class').split(' ').pop();
+            
+            // fallback if icon class does not exit
+            if (current_icon == 'radial__label') {
+                $('#icon-visible').addClass(new_icon);
+                return false;
+            }
+
+            // Add class to staging icon, then animate
+            $('#icon-staging').addClass(new_icon);
+            $("#icon-visible").animate({ height: 'toggle', opacity: 'toggle' }, animation_time);
+            $("#icon-staging").animate({ height: 'toggle', opacity: 'toggle' }, animation_time);
+
+            setTimeout(function() {
+                // Swap from staging to visible
+                $('#icon-visible').removeClass(current_icon);
+                $('#icon-visible').addClass(new_icon);
+                $('#icon-visible').show();
+                $('#icon-staging').hide();
+
+                // Clean up staging icon
+                var remove_icon = $('#icon-staging').attr('class').split(' ').pop();
+                $('#icon-staging').removeClass(remove_icon);
+            }, animation_time+250);
+        }
+
+        function setCompletionUI() {
+            // Increases icon size
+            $('#radial-bar').css('font-size', '46px');
+            $('#footer-div').append('<a id="uninstall" class="type--fine-print" href="#">Uninstall Extension</a>');
+            $('#uninstall').click(function(){
+                showModal('Uninstall Extension', 'Would you like to remove the Honorlock Extension?<br><br><div style="float:right;"><a id="yes-uninstall" href="#">Yes</a><a id="no-uninstall" href="#" style="margin-left:10px;">No</a></div>');
+                $('#yes-uninstall').click(function(){
+                    uninstallExtension();
+                });
+                $('#no-uninstall').click(function(){
+                    $('.modal-close').trigger('click');
+                });
+            });
+        }
+
+        // Uninstall active use_extension
+        function uninstallExtension() {
+            chrome.runtime.sendMessage(use_extension, {
+                message: "uninstallme"
+            }, response => {
+                let e = chrome.runtime.lastError;
+                if (response) {
+                    $('#header_text').text("Extension uninstalled");
+                    $('#lead_text').text("Honorlock has been removed. Thanks for using our proctoring solution!");
+                    $('#uninstall').hide();
+                }
+            });
+            $('.modal-close').trigger('click');
+        }
+
+        function changeIconColor(color) {
+            // Default color
+            if (!color) {
+                return false;
+            } 
+
+            // Change icon color
+            switch(color) {
+                case '#ffc000':
+                    iconColorManager('color-attn');
+                    break;
+                case '#49b86b':
+                    iconColorManager('color-success');
+                    break;
+                case '#f44336':
+                    iconColorManager('color-danger');
+                    break;
+                default:
+                    iconColorManager('color-default');
+            }
+
+            // Render radial color
+            var canvas = $("canvas").get(0);
+            var ctx = canvas.getContext('2d');
+            transitionCtxColor(color);
+
+            // Use Tweenlite and ColorProps plugin for ctx color transistion
+            function transitionCtxColor(color) {
+              TweenLite.to(ctx, 1, {colorProps:{strokeStyle: color}, onUpdate:ctxUpdate});
+            }
+
+            function ctxUpdate() {
+              ctx.stroke();
+            }
+
+            function iconColorManager(icon_class) {
+                $('#icon-visible, #icon-staging').prependClass(icon_class);   
+                if (icon_class == 'color-danger') {
+                    $('#header_text').prependClass(icon_class);    
+                } else {
+                    $('#header_text').removeClass('color-danger');
+                }
+                
+            }
+        }
+
+        function showModal(header, body) {
+            $('#modal-trigger').trigger('click');
+            $('#modal-header').text(header);
+            $('#modal-body').html(body);
+        }
+
+        // Initialize checklist
+        setTimeout(function(){
+            nextChecklistStep('initialize');
+        }, 1000);
+    }
+
+    function inIframe () {
+        return (window.self !== window.top)
+    }
+
+    // Listen for messages passed to window 
+    function windowMessageListener() {
+        window.addEventListener("message", receiveMessage, false);
+        
+        function receiveMessage(event) {
+            if (event.data.message == 'hideLivechat') {
+                //$('div#hl-livechat').hide();
+            }
+        }
+    }
+
+    function insertLivechat() {
+
+        var randnum = Date.now() + Math.random();
+
+        window.__lc = window.__lc || {};
+        window.__lc.license = livechat_id;
+        window.__lc.group = 3;
+        window.__lc.params = [
+            {
+                name: 'source',
+                value: 'Extension Install'
+            }
+        ];
+        ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+
+        $('#need-help').click(function() {
+            LiveChatWidget.call('maximize')
+        });
+
+        LiveChatWidget.on('visibility_changed', ({ visibility }) => {
+            if( visibility == 'maximized' ) {
+                $('#icon-container').addClass('animate-left');
+                $('#context').addClass('animate-left');
+            } else if( visibility == 'minimized' ) {
+                $('#icon-container').removeClass('animate-left');
+                $('#context').removeClass('animate-left');
+            }
+        })
+    }
+
+    function isLockdownBrowser() {
+        isLockdown = window.navigator.userAgent.indexOf("ANGEL") > -1;
+        return isLockdown;
+    }
+
+    function isMobileDevice() {
+        var isAndroid = /(android)/i.test(navigator.userAgent);
+        var isIOSChrome = /(CriOS)/i.test(navigator.userAgent);
+        var isIphone = /(iPhone)/i.test(navigator.userAgent);
+        var isIpad = /(iPad)/i.test(navigator.userAgent);
+        if(!isAndroid && !isIOSChrome && !isIphone && !isIphone) {
+            return false;
+        }
+        return true;
+    }
+
+    // Is Chrome the current browser
+    function ChromeIsActive() {
+        var isChromium = window.chrome,
+            winNav = window.navigator,
+            vendorName = winNav.vendor,
+            isOpera = winNav.userAgent.indexOf("OPR") > -1,
+            isIEedge = winNav.userAgent.indexOf("Edge") > -1,
+            isIOSChrome = winNav.userAgent.match("CriOS");
+
+        if (isChromium !== null && isChromium !== undefined && vendorName === "Google Inc." && isOpera == false && isIEedge == false) {
+            return true; // Chrome is active
+        } else {
+            return false; // Chrome is not active
+        }
+    }
+
+    // Uninstall extension by ID
+    function archiveExtension(extension_id) {
+        // Chrome is required for this function
+        if (!ChromeIsActive() || isMobileDevice() || isLockdownBrowser()) {
+            return false;
+        }
+        // Show iFrame then uninstall extension
+        chrome.runtime.sendMessage(extension_id, {message: "showFrame"}, _=> {
+            let e = chrome.runtime.lastError;
+            $('#icon-visible').css('opacity', '1');
+            chrome.runtime.sendMessage(extension_id, {message: 'uninstallme'});
+        });
+    }
+
+    // Send message to show hidden iFrame
+    function showFrame() {
+        // Chrome is required for this function
+        if (!ChromeIsActive() || isMobileDevice() || isLockdownBrowser()) {
+            return false;
+        }
+        showFrameMessage();         
+        let timeout_intervals = [1000, 3000, 5000, 8000];
+        for (timeout of timeout_intervals) {
+            setTimeout(()=> showFrameMessage(), timeout);
+        }
+     
+        function showFrameMessage() {      
+            $('#icon-visible').css('opacity', '1');
+            chrome.runtime.sendMessage(use_extension, {message: "showFrame"}, _=> {let e = chrome.runtime.lastError});      
+        }
+    }
+
+    function compareVersions(minVersion, extVersion) {
+        // Current extension segments
+        var ext_segment  = extVersion.split(".");
+        var ext_placements = ext_segment.length;
+
+        // Minimum requirement segments
+        var min_segment  = minVersion.split(".");
+        var min_placements = min_segment.length;
+
+        // Account for legacy version (1.0.0.X > 1.0)
+        if (min_placements !== ext_placements) {
+            // Fail: incorrect number of integer blocks
+            return false;
+        }
+        for (i = 0; i < min_placements; ++i) {
+            if (parseInt(ext_segment[i]) > parseInt(min_segment[i])) {
+                // Version check passed (skipped). Extension int ahead at block
+                return true;
+            } else if (parseInt(ext_segment[i]) < parseInt(min_segment[i])) {
+                // Version check failed. Lower int at block
+                return false;
+            }
+        }
+        // Version check passed
+        return true;
+    }
+
+    function cmpVersions (ext_version, min_version) {
+        var i, diff;
+        var regExStrip0 = /(\.0+)+$/;
+        var segmentsA = ext_version.replace(regExStrip0, '').split('.');
+        var segmentsB = min_version.replace(regExStrip0, '').split('.');
+        var l = Math.min(segmentsA.length, segmentsB.length);
+
+        for (i = 0; i < l; i++) {
+            diff = parseInt(segmentsA[i], 10) - parseInt(segmentsB[i], 10);
+            if (diff) {
+                return diff;
+            }
+        }
+        return segmentsA.length - segmentsB.length;
+    }
+
+    // Prepend class needed in some cases to avoid collision with icon swap function
+    (function($) {
+        jQuery.fn.extend({
+            prependClass: function(newClasses) {
+                return this.each(function() {
+                    var currentClasses = $(this).prop("class");
+                    $(this).removeClass(currentClasses).addClass(newClasses + " " + currentClasses);
+                });
+            }
+        });
+    })(jQuery);
+</script><footer id="footer-2" class="space--sm footer-2">
+    <div class="container">
+        <div id="footer-2-row" class="row">
+            <div id="footer-div" class="col-sm-12">
+                <span class="type--fine-print">© <span class="update-year">2020</span> Honorlock Inc.</span>
+                <a href="tel:844-243-2500" class="type--fine-print">+1 (844) 243-2500</a>
+                <a class="type--fine-print" href="https://static.honorlock.com/legal/app_privacy" target="_blank">Privacy Policy</a>
+                <a class="type--fine-print" href="https://honorlock.com/legal/student" target="_blank">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="container containerMeasure" style="opacity:0;pointer-events:none;"></div><script src="extension_data/get_dynamic_config.js"></script><script src="extension_data/get_static_config.js"></script><div id="chat-widget-container" style="opacity: 1; visibility: visible; z-index: 2147483639; position: fixed; bottom: 0px; width: 84px; height: 84px; max-width: 100%; max-height: calc(100% + 0px); min-height: 0px; min-width: 0px; background-color: transparent; border: 0px none; overflow: hidden; right: 0px; transition: none 0s ease 0s !important;"><iframe allow="autoplay" src="extension_data/open_chat.html" allowtransparency="true" id="chat-widget" name="chat-widget" scrolling="no" role="application" aria-label="LiveChat chat widget" style="width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; position: absolute; inset: 0px; transition: none 0s ease 0s !important;"></iframe></div></body></html>

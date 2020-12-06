@@ -1,0 +1,173 @@
+.eesy__modal-scope .eesy__modal__box {
+  font-family: LatoWeb !important;
+}
+
+.eesy-tab2-btn:hover .eesy-tab2-btn-handle, 
+.eesy-tab2-btn.eesy_draggable .eesy-tab2-btn-handle {
+  right: -208px;
+}
+
+.eesy__modal-scope .layout__header {
+  background-color: #666;
+}
+
+.eesy__modal-scope .section.___primary {
+  background-color: #666;
+} 
+
+.eesy__modal-scope .header__close:before {
+  color: white;
+}
+
+.eesy__modal-scope .header__back:before {
+  color: white;
+}
+
+.eesy__modal-scope .filter__category {
+  background-color: var(--ic-link-color);
+}
+
+.eesy__modal-scope .filter__category:hover,
+.eesy__modal-scope .filter__category:focus, 
+.eesy__modal-scope .filter__category.___is-selected,
+.eesy__modal-scope .filter__category.___is-selected:focus {
+  background-color: #fff;
+  color: var(--ic-link-color);
+}
+
+.eesy__modal-scope .header__search:before {
+  color: #333333;
+}
+
+.eesy__modal-scope .contact__button.___email:after {
+  color: var(--ic-link-color);
+}
+
+.eesy__modal-scope .contact__button {
+  border-style: solid;
+  border-color: var(--ic-link-color);
+  border-width: 1px;
+  color: var(--ic-link-color);
+}
+
+.eesy__modal-scope .contact__button.___email:after {
+  color: var(--ic-link-color);
+  font-size: 17.0625px;
+}
+
+.eesy__modal-scope .contact__button.___call:after {
+  color: var(--ic-link-color);
+  font-size: 24.375px;
+}
+
+.eesy__modal-scope .contact__button.___chat:after {
+  color: var(--ic-link-color);
+  font-size: 24.375px;
+}
+
+.eesy__modal-scope .eesy__footer {
+  background-color: #333333;
+}
+
+.eesy__modal-scope .selector__option:hover,
+.eesy__modal-scope .results__show-all,
+.eesy__modal-scope .article a {
+  color: var(--ic-link-color);
+}
+
+.eesy__modal-scope .tag.___is-selected {
+  background-color: var(--ic-link-color);
+  border-color: var(--ic-link-color);
+}
+
+/* V3 styling */
+
+
+ .eesy_container.eesy_container_v3.eesy_canvas {
+    background-color: #666;
+}
+
+.eesy_container_v3.eesy_canvas .eesy_systray_header,
+.eesy_container_v3.eesy_canvas .eesy_systray_footer,
+.eesy_container_v3.eesy_canvas .eesy_header,
+.eesy_container_v3.eesy_canvas .eesy_footer,
+.eesy_container_v3.eesy_canvas .eesy_hint_header,
+.eesy_container_v3.eesy_canvas .eesy_hint_footer {
+    background-color: #666;
+ }
+
+.eesy_container_v3.eesy_canvas .eesy_hide_slider:before {
+  background-color: var(--ic-link-color);
+
+}
+
+input:checked + .eesy_hide_slider {
+  background-color: var(--ic-link-color);
+}
+
+.eesy_container_v3.eesy_canvas input:checked + .eesy_hide_slider {
+  background-color: var(--ic-link-color);
+}
+
+.eesy_container_v3.eesy_canvas .eesyarrow.left,
+.eesy_container_v3.eesy_canvas .eesyarrow.left:after { 
+    border-left-color: #666;  
+}
+
+.eesy_container_v3.eesy_canvas .eesyarrow.right,
+.eesy_container_v3.eesy_canvas .eesyarrow.right:after {
+    border-right-color: #666;
+}
+
+.eesy_container_v3.eesy_canvas .eesyarrow.up,
+.eesy_container_v3.eesy_canvas .eesyarrow.up:after { 
+    border-bottom-color: #666; 
+}
+
+.eesy_container_v3.eesy_canvas .eesyarrow.down,
+.eesy_container_v3.eesy_canvas .eesyarrow.down:after { 
+    border-top-color: #666; 
+}
+
+.eesy_container_v3.eesy_canvas .eesy_systray_footer,
+.eesy_container_v3.eesy_canvas .eesy_footer,
+.eesy_container_v3.eesy_canvas .eesy_hint_footer,
+.eesy_container_v3.eesy_canvas .voting-enabled.eesy_hint_footer, 
+.eesy_container_v3.eesy_canvas .voting-enabled.eesy_systray_footer, 
+.eesy_container_v3.eesy_canvas .voting-enabled.eesy_footer, 
+.eesy_container_v3.eesy_canvas .voting-enabled.eesy_systray_footer {
+  height: 25px;
+}
+
+.eesy_container_v3.eesy_canvas .quick-survey-section {
+  bottom: 0;
+  background-color: #666;
+}
+
+.eesy-tab2-btn-handle i.fa.fa-chevron-up,
+.eesy-tab2-btn-handle i.fa.fa-chevron-down {
+  display: block;
+  color: #666;
+}
+
+/* Build Mode */
+#pageshortcut {
+    position: fixed;
+    bottom: 14px;
+    right: 161px;
+    z-index: 100000000;
+    border: none;
+    color: #ff9000;
+    background-color: white;
+    border-radius: 5px;
+    padding: 6px 31px;
+    margin-top: 2px;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#pageshortcut:hover {
+    background-color: #ff9000;
+    color: white;
+    cursor: pointer;
+}

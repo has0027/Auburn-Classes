@@ -1,0 +1,13 @@
+Conical Frustum Test List
+Small
+0.5
+0.75
+0.25
+ Medium 
+5.1
+10.2
+15.9
+Large
+98.32
+199.0
+250.0

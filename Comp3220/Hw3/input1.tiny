@@ -1,0 +1,4 @@
+rubyrdog = 1
+x = (2 + 3)/ 4 
+y = dog / (x + 3)
+print x + y  

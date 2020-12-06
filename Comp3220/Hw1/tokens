@@ -1,0 +1,71 @@
+Next token is: id   Next lexeme is: x
+Next token is: whitespace   Next lexeme is:  
+Next token is: =   Next lexeme is: =
+Next token is: whitespace   Next lexeme is:  
+Next token is: int   Next lexeme is: 1
+Next token is: whitespace   Next lexeme is: 
+Next token is: id   Next lexeme is: y
+Next token is: whitespace   Next lexeme is:  
+Next token is: =   Next lexeme is: =
+Next token is: whitespace   Next lexeme is:  
+Next token is: int   Next lexeme is: 2
+Next token is: whitespace   Next lexeme is: 
+Next token is: id   Next lexeme is: z
+Next token is: whitespace   Next lexeme is:  
+Next token is: =   Next lexeme is: =
+Next token is: whitespace   Next lexeme is:  
+Next token is: int   Next lexeme is: 3
+Next token is: whitespace   Next lexeme is: 
+
+Next token is: id   Next lexeme is: x
+Next token is: whitespace   Next lexeme is:  
+Next token is: +   Next lexeme is: +
+Next token is: whitespace   Next lexeme is:  
+Next token is: id   Next lexeme is: y
+Next token is: whitespace   Next lexeme is:  
+Next token is: =   Next lexeme is: =
+Next token is: whitespace   Next lexeme is:  
+Next token is: id   Next lexeme is: z
+Next token is: whitespace   Next lexeme is: 
+
+Next token is: id   Next lexeme is: x
+Next token is: whitespace   Next lexeme is:  
+Next token is: *   Next lexeme is: *
+Next token is: whitespace   Next lexeme is:  
+Next token is: id   Next lexeme is: y
+Next token is: whitespace   Next lexeme is:  
+Next token is: =   Next lexeme is: =
+Next token is: whitespace   Next lexeme is:  
+Next token is: id   Next lexeme is: y
+Next token is: whitespace   Next lexeme is: 
+
+Next token is: id   Next lexeme is: y
+Next token is: whitespace   Next lexeme is:  
+Next token is: *   Next lexeme is: *
+Next token is: whitespace   Next lexeme is:  
+Next token is: id   Next lexeme is: z
+Next token is: whitespace   Next lexeme is:  
+Next token is: =   Next lexeme is: =
+Next token is: whitespace   Next lexeme is:  
+Next token is: int   Next lexeme is: 6
+Next token is: whitespace   Next lexeme is: 
+
+Next token is: id   Next lexeme is: y
+Next token is: whitespace   Next lexeme is:  
+Next token is: /   Next lexeme is: /
+Next token is: whitespace   Next lexeme is:  
+Next token is: id   Next lexeme is: z
+Next token is: whitespace   Next lexeme is:  
+Next token is: =   Next lexeme is: =
+Next token is: whitespace   Next lexeme is:  
+Next token is: int   Next lexeme is: 2
+Next token is: /   Next lexeme is: /
+Next token is: int   Next lexeme is: 3
+Next token is: whitespace   Next lexeme is: 
+
+Next token is: print   Next lexeme is: print
+Next token is: whitespace   Next lexeme is:  
+Next token is: id   Next lexeme is: x
+Next token is: whitespace   Next lexeme is: 
+Next token is: eof   Next lexeme is: eof 
+

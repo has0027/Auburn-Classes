@@ -1,0 +1,1001 @@
+preliminary report algebraic language december perlis 
+extraction roots digital computers december
+techniques department matrix program schemes december
+engineering programming terminology november
+square root approximations november
+computers procedures november
+engineering programming terminology october
+equivalence transformation program schemes october
+proposal october
+engineering programming terminology september
+problem programming communication changing machines proposed solution part september strong
+error estimation runge kutta procedures september call
+engineering programming terminology august
+problem programming communication changing machines proposed solution part august strong
+recursive curve fitting technique august
+modification newton method august
+programming arithmetic operations august
+simple automatic coding systems july
+engineering programming terminology june
+convergence iterative processes technique discussed applied iterative procedure solution equation rate convergence iteration convergence iteration june
+algebraic formulation flow diagrams june
+applications department automatic implementation logic morris
+binary function operations decimal command
+improved decimal redundancy check
+general purpose programming systems
+subroutine method calculating bemer
+note empirical bounds generating bessel functions
+request methods programs april
+april
+analyzing logical statements produce function table
+ibm code
+variable width tables binary search facility
+programmed binary ibm type january
+tables automatic computation january
+machine method square root computation january bemer
+queue network ibm december johnson
+impact developments december
+proposed interpretation algol december
+method simultaneous nonlinear equations procedure simultaneous solution necessarily linear equations generalization method single function variable december
+choice decimal binary representation binary number advantages decimal representation high performance general purpose greater simplicity binary arithmetic unit greater binary numbers directly arithmetic speed obvious important binary addressing instruction increase performance binary addresses essential powerful operations practical decimal instruction hand decimal numbers essential communicating man applications requiring processing large volume decimal input output data time decimal binary conversion needed binary significant decimal time fast binary addition significance decimal binary addressing binary decimal data arithmetic efficient conversion instructions december
+research december
+method computation square roots division november
+technique handling macro instructions november
+algebraic translation limited november knuth
+flow flow november
+multiprogramming feasibility considerations increased parallelism computers noted parallelism presents number problems machine design programming systems minimum requirements successful concurrent execution independent problem programs discussed requirements balanced combination built programmed logic techniques place programmed logic programs supervisory program compiler problem programs november
+computers november
+shift register code indexing applications communication shift register code fixed order high degree redundancy single error code minimum distance code bit code words employed identification code shift register code period permits code employed simply received zeros shift register time code combination error combinations low probability called communication describes properties application code detail finding employed built drum statistical united technical aid administration october
+scientific business applications curve plotter october
+statistical programs ibm part ii october
+construction flowcharts october
+efficient method generating distributed points surface dimensional corrigendum october
+recommendations share algol committee october
+simple algebraic language october clark smith
+algebraic translator october
+proposed standard flow symbols october
+center october
+small size general purpose digital magnetic elements paper examines questions development construction general purpose digital magnetic long memory elements developed laboratory modeling october
+survey progress development automatic data processing business management control systems government december iii september
+vector transformation linear constraints september
+ibm tape matrix compiler september
+multi dimensional squares polynomial curve fitting september
+diagrams binary applicability design logic paper back binary years diagrams years derived applicability binary diagrams electronic digital design logic september
+remarks algol symbol manipulation september
+algol committee report extensions september dijkstra perlis
+proposal generalized card code characters september bemer
+central computers september
+role university computers data processing related fields study made university programs united states fields computers data processing operations research related fields university policies organization administration students curricula equipment investigated integrated university program recommended present activities related computers develop university details recommended graduate school sciences september
+statistical programs ibm part collection descriptions statistical programs university computing ibm august
+construction set test matrices paper equations properties set test matrices determination accuracy routines finding inverse determinant eigenvalues matrix august
+proposal feasible programming paper designing programming facility involving digital program assist preparation large scale real time programs facility capable programs variety machines characteristics similar facility basic assumptions random access storage avoid constructed program assumption intended provide aspects program construction programming source program statements errors construct object program characteristics program interrupt scheme large set characters addressing august
+educational program computing august
+real time data july
+high speed sorting procedure july
+parameter estimation simple nonlinear models july
+binary conversion fixed decimal precision decimal july
+construction july graham
+remarks practical solution characteristic problems paper concerned practical solution characteristic problem ordinary differential equation sequential computers digital solve initial problems boundary problems mathematical process found machine machine normal activity numerical number papers applied devices problems purpose note mathematical framework model practical procedures assist extension ideas problems june
+programming machine extended address mechanism june
+technique computing critical flexible automatic june schwartz
+high speed june
+handling internal symbols language processors substitution oriented symbols programmer oriented symbols language processors examined feasible method presented june williams
+computation union june iii
+survey progress development automatic data processing business management control systems government december ii part
+error analysis floating point arithmetic iii
+survey progress development automatic data processing business management control systems government december april general united states united states
+note method generating points dimensional april
+efficient method generating distributed points surface dimensional april
+routine find solution simultaneous linear equations polynomial coefficients april
+binary arithmetic variable word length serial april
+mathematical procedure machine division april
+intelligence programming systems variation exists degree programming systems devices limited human decision procedures attempt made systematic classification devices decision making functions human operators demonstrated feasible date highly desirable future bemer
+formulas oriented language technique shown simple algebraic formulas address code
+iterative method fitting curve iterative method finding curve squares fit set dimensional points
+elimination special functions differential equations set ordinary differential equations mathematical functions requiring subroutines numerical solution electronic tabular data numerical solution hand calculation function generators methods applied equivalent set equations functions practical functions satisfy sufficiently simple differential equations functions eliminated procedure inverse exponential transcendental functions
+computing integrals relative merit cost ways evaluating typical integrals bessel functions investigated methods machine evaluation finite series integration differential equation electronic ibm results generally applicable equations wave equation
+signal research development automatic programming digital computers jr
+arithmetic translator compiler ibm fortran automatic coding
+modifications algebraic language
+recursive compilers list types memories iii
+codes january
+comparison programming methods december
+console operator examination electronic computers sophisticated programs process complex computing experience operators increasing time selection training operators difficult accurate uniform operator test training aid authors developed console operator examination outlined examination programmed specifically ibm model ii tape record similar programs developed computers december
+digital simulation discrete flow systems discrete flow systems discussed characterized items digital systems techniques common approaches physical problems principal portion paper discussion simulation studies illustrate programming problems involved extensive package handling objective optimization parameters storage processing rates traffic flow control procedures simulated compare effects alternative control decisions december moore
+methods word inversion ibm december price
+method lists important property scheme storage lists data multiple occurrences stored place lists problem subsequent list longer needed desired parts overlap lists lisp employs solution problem present paper describes general method enables efficient method employs reference counts describe extent december collins
+multiple precision arithmetic december
+programmed error correction project december
+note approximating december
+searching december
+programming numerical solution polynomial equations numerical techniques presented computing roots polynomial equations recommended inversion rules basic newton iterative techniques applied great reliability high degree accuracy rapid convergence realized numerical examples shown illustrate show application recommended procedures december
+numerical solution polynomial equation december
+survey coded character representation december bemer
+survey punched card codes december smith williams
+structure december
+recent device survey literature history mathematics calculation reference device purpose communication members light evolution present status november
+estimation relative efficiency internal sorting methods november
+character scanning ibm november
+note computation november
+simple technique coding differential equations november
+computation control november
+squares fitting great points november
+compilation computers neliac neliac compiler based algol developed laboratory compiler univac compiler generate version running program generated machine code control data corporation cdc neliac essentially identical input language november jr
+assignment problem assignment problem formulated briefly discussed efficient solution presented algol code empirical relation solution time size problem based extensive experiments carried digital november
+polynomial november
+squares fit orthogonal polynomials november
+assignment november
+iii november
+ii november
+real zeros arbitrary function november
+solution linear equations november
+sort november
+bessel functions kind november
+bessel function set integer orders november
+digital computers universities iv october
+note calculation interest october
+evaluating numbers expressed strings english words october
+character set proposals october
+coefficients october
+october
+parallel processing october
+comments technique counting october
+list systems programs ibm univac october romberg
+numbers digital present communications systems single characters groups coded simple terminal english words form sparse set combinations present methods systems terminals numeric representations entire words common character character representations requires approximately present transmission time costs code language translation schemes made transmission numeric binary single character transmission dictionary words names people october bemer
+automatic programming classes october
+computers engineering instruction april committee engineering university committee project computers engineering education special discuss topics pertinent project report key ideas offered selected topics october
+report university computing center october
+digital computers universities iii september
+decision rule improved efficiency solving linear programming problems simplex september
+rational interpolation continued september floyd
+september iii
+september
+comments fortran user september
+expressions evaluating september
+memory september
+problem symbol manipulation student september
+digital computers universities ii august
+ii august thacher jr
+august thacher jr
+ii august thacher jr
+words corrigendum august
+technique counting august
+counting ibm august
+short study notation efficiency august smith jr
+neliac algol august
+programming compatibility family related digital computers july
+combining algol statement analysis checking july
+scheduling parts scheduling external constraints july
+terminology project july
+character set proposals july
+digital computers universities part july
+complex exponential integral july
+concept large design june
+interval estimation time state total time ratio process june
+solution simultaneous ordinary differential equations general purpose digital june
+symbol manipulation threaded lists corrigendum june perlis
+solution polynomial equation method communications acm june thacher jr
+june thacher jr
+evaluation legendre polynomial recursion june galler
+evaluation polynomial recursion june galler
+evaluation polynomial recursion june galler
+evaluation chebyshev polynomial recursion june galler
+conversion floating point representations june
+short method measuring error squares power series june
+scheduling parts introduction theory order fully fast simultaneous processing large extent schedule workload scheduling routine capable extremely rapid execution prove construction schedule determining programs run respect scheduling minimize time executing entire workload subset subject external constraints precedence applicable wide class machines june
+defining algol assignment statements june floyd
+compiling june
+department mathematics state university june
+future automatic digital computers june
+words
+technique counting binary
+start automatic storage assignment
+computation square roots continued
+code
+report algorithmic language algol naur
+number april knuth
+high speed multiplication process digital computers april
+april
+bessel function asymptotic expansion april
+bessel series expansion april
+control logical block diagnosis data loading paper describes section integrated diagnostic monitor checking sections instructions subroutines object program method diagnostic operations format similar program makes convenient simple paper describes number diagnostic features included april
+combinations integers time april brown
+proving theorems pattern recognition april
+macro instruction extensions compiler languages compilers constructed small set functions made extremely powerful conditional assembly nested definitions notation serve make compiler capable general extensions language april
+symbol manipulation april
+syntactic semantic algol april smith
+introduction information processing language april
+symbol manipulation threaded lists april perlis
+recursive functions symbolic expressions computation machine part april
+share standard flow symbols
+routine
+numerical inversion transforms
+defining algol assignment statements floyd
+execute operations fourth mode instruction sequencing
+note number conversion
+technology
+preparation
+problems
+method computation square roots division
+basic side tape
+coding coding external symbols symbols internal compute carried relevant properties form easily case point presented
+programming
+sequential formula translation syntax algorithmic language algol sequence states element called controlled state symbol pairs represented transition matrix description syntax time extremely simple rule machine programs statements algorithmic language sequential treatment feasible case optimizing processes recursive address calculation
+handling macro instructions corrigendum
+solution polynomial equation method
+terminology proposal
+proposal character code compatibility bemer
+proposal set standards acm
+high speed sorting procedure january
+additional codes january
+assembly program ibm january
+january
+article records research technology science made author union automatic control december
+production december
+simulation analysis systems december
+boolean functions information retrieval systems december
+processing magnetic tape files variable blocks december graham
+machine calculation probability distribution method presented calculation machine probability distribution references memory minimum multiplication 2n 2n references memory required straightforward method number entries probability distribution method directly applicable distribution exists computed case time accuracy december
+geometric weighted check digit verification note describes method geometric checking digits multiplication division addition attempt made show limitations december
+dimensional codes detecting multiple errors paper family codes detecting multiple errors binary coded message message multidimensional rectangular array processes encoding error detection based dimensions array effectiveness codes increased introducing check bit essentially check bits dimensional codes discussed paper main family codes restricted dimensions discussion similar multidimensional single bit selection purpose dimensional code detecting errors developed extension higher dimensional codes greater correction power straightforward december
+incomplete elliptic integrals december
+set legendre polynomials kind december herndon
+squares fit orthogonal polynomials december
+incomplete elliptic integrals december
+mathematical programming discussion discussion mathematical programming special interest committee mathematical programming acm discussion september national acm note consists necessarily represent position discussion december smith
+specification languages mechanical languages processors december
+engineering application logic structure tables november
+design paper presents digital program rapid calculation data essential design utilized computers control systems generated angle required main type november
+programming duplex paper describes method duplex programming computers method special programs basic data processing program package duplex operation greater reliability required level integration computers similar processing inputs cross check intermediate final results november
+program ray minimum cover abstract complex november
+people users groups expressed interest defining language algol language compilers small size computers preliminary report acm national proposals final version recommendations standard subset algol small computers presented november knuth
+november
+set test matrices november
+november
+composition generator november
+permutation november
+interpolation november
+tape november moore
+map november moore
+library loading routine selection november moore
+generalized polyphase merge november
+low level language subroutines fortran paper describes subroutines coded symbolic languages fortran coded programs deal special arithmetic multi precision arithmetic symbol manipulation bit manipulation character set input output display november
+fitting method squares november
+proposals improving efficiency algol november
+stochastic evaluation static storage allocation october
+core allocation based probability october
+techniques storage allocation algorithms october jr
+semi automatic storage allocation loading time october
+storage allocation scheme algol storage allocation scheme machine instruction core store magnetic drum drum storing program blocks data directed programmer auxiliary information algol program routines storage run time full detailed october naur
+experience automatic storage allocation october collins jr
+dynamic storage allocation including automatic backing store october
+dynamic storage allocation information retrieval october
+program organization record dynamic storage allocation material presented paper part design core allocation portion ascii programming project ascii concerned application techniques activities intelligence operations october
+problems storage allocation multiprocessor multiprogrammed october
+general formulation storage allocation general storage allocation process essentially identical respect primary storage total storage set internal external direct address set introduced program sequence relative specific execution time period mapping effective data direct address set storage allocation considered process arbitrary program sequence program linking set existence proof terms completely interpretive program special cases discussed restrictions programs considered practical allocation processes october jr
+case dynamic storage allocation october
+approach storage compiler october
+recent approximate natural considered describing note produce family fast high precision practical exponential evaluation formulas derived formulation october
+optimum tape writing procedures magnetic tape read check writing error occurs writing record programmed error routine area tape record area paper procedures basis expected loss time decision rule selecting optimum procedure rule depends number times tape written future case optimum procedure area decision size area formula developed determine optimum area procedure september
+inversion complex matrix september
+manipulation algebraic expressions manipulating expressions form sum developed conjunction development programs systems analysis problems derive transfer functions block diagrams linear continuous multi loop feedback machine representation derived expression form task compiling developed purpose connection analysis studies application mathematical device original problem september
+solution tridiagonal matrices september
+iterative method inversion power series september
+generalized important event technique september
+algol september taylor
+critical path scheduling september
+chain september
+programs september
+information retrieval language legal studies september
+applied mathematics laboratory taylor model september
+number august knuth
+rational approximations error function similar functions august
+note multiple precision arithmetic august
+note fitting great squares august
+bit pseudo random number generator bit pseudo random number generator suitable computers tested statistically determine monte carlo programs frequency tests distributions low order runs runs applied half generated numbers interval sets integers obtained bits generated numbers tests numbers set integers significant bits august
+generalized polyphase merge august
+cobol sample problem simplified control problem chosen cobol users potential users computing systems department store language programming cobol language runs august
+set test matrices august
+august
+basic terminology connected mechanical languages processors suggestions paper part terminology work university research education work national science scientific research august
+roots complex number july jr
+july
+july
+find july hoare
+quicksort july hoare
+partition july hoare
+set legendre polynomials kind july herndon
+procedures range arithmetic july
+note approximating july
+iterative method inversion power series july
+method integer conversion july
+solution tridiagonal matrices july
+equivalence declarations july galler graham
+approximation curves line segments dynamic programming june bellman
+vehicle stability active june
+class iteration formulas class iteration formulas rational approximations euler formula derived error estimates iterative procedures derivation euler formula error estimate notation error estimate suggests final section considers euler polynomial shows number formulas derived approach short discussion formula june
+logic structure tables logic tables developing logic required procedures operations systems circuits set rules writing logic tables explained means simple examples logic structure machine logic tables logic tables dimensional nature fully sequential parallel aspects logic compiled directly program eliminate flow hand coding june
+algol algol report encountered describe complex language difficult learn serve purpose language experience shown report explained fact easy learn algol write algorithms language general powerful handle class problems learn parts algol present compiler languages write assignment statements restrictions compiling languages finally algol things written problem algol general restrictions technical details learn correctly paper features language considered usefulness discussed remarks based authors interpretations algol report june knuth
+operational compatibility systems conventions general standards committee share organization considerable effort problem operating efficiently view number programming systems programming systems coded fixed set hardware components fact storage medium required required set conventions considered minimize set time sufficiently interest users george june
+state digital technology june
+romberg integration june
+numerical solution polynomial equation
+zeros real polynomial resultant procedure
+matrix inversion
+automatic indexing survey recommendations preparation automatic read documents contents machines analysis report presents concept automatic analysis relative frequency approach measuring significance words word groups sentences relative frequency approach discussed detail application problems automatic indexing automatic included report summary automatic analysis studies published date writing conclusions point sophisticated mathematical linguistic techniques solution problems automatic analysis
+method evaluating area normal function
+successive approximations storage problems ordinary differential equations bellman
+chaining method addressing secondary keys methods random access files basis key briefly widely chaining method based pseudo random key transformation reviewed detail efficient generalization chaining method permits recovery additional keys presented johnson
+design improved transmission data processing code bemer smith jr williams jr
+division square root number april
+numerical experiments newton method nonlinear problems generalization newton method nonlinear equation form nonlinear elliptic equation solved numerically comparison results results obtained iteration procedure show cases method substantial advantages time accuracy april bellman
+practical technique determination optimum relaxation factor successive relaxation method april
+survey punched card codes april
+ii april thacher jr
+real exponential integral april thacher jr
+legendre polynomial april herndon
+polynomial april herndon
+solution polynomial equation april herndon
+frequently errors algol programs april herndon
+function april herndon
+complete elliptic integral kind april herndon
+complete elliptic integral kind april herndon
+gamma function range april herndon
+roots complex number april herndon
+set test matrices april herndon
+inverse matrix element april herndon
+inverse finite segment matrix april herndon
+function april herndon
+logarithm complex number april herndon
+legendre functions kind real arguments april herndon
+exponential complex number april herndon
+interest april
+bessel functions computed april
+ii april thacher jr
+april
+evaluation determinant april
+programmed error correction decimal april
+table techniques april
+approximating transcendental numbers continued april
+compilation variables april
+bessel functions integral order complex argument april gray
+eigenvalues symmetric matrix april smith
+topological ordering list elements network network directed line segments free circular elements assumed lines identified terminal nodes nodes assumed topological list lines numeric order simple technique create high speed list topological order april
+real zeros arbitrary function
+thacher jr
+routine
+remarks algorithms algorithms
+critical path scheduling
+correlation coefficients matrix multiplication
+generalized technique symbol manipulation numerical calculation
+operations
+comparison iterative methods calculation roots iterative methods calculation roots including proposed author compared ways theoretical convergence estimates estimates machine running time compare running time methods variety input data
+form
+statistical programs university
+finding minimum network
+gamma function
+factorial
+jr
+gamma function
+solution polynomial equations method
+real exponential integral
+complex exponential integral thacher jr
+smith
+comment paper parallel processing
+subroutines symbol manipulation algebraic compiler iii
+multiple programming data processing
+multiple precision division
+program debugging automatic debugging substantially reduce lead time coding effective complex program analysis debugging criteria resulting accurate programs programmer program memory areas set input data maximum loops information set data executive debugging program runs program performing checking functions trace record analysis location errors applications flexible conjunction debugging techniques july es
+card format reference files information processing paper card format suitable variety reference files information processing column ibm card divided fields reference material field identification field format reference material flexible format identification reference material includes index source class summary cross reference entry identification includes codes matrix entry number kind major interest source reference identification choice identify material general files card format sufficient identify material reference files programming terms hardware terms equipment machine systems suitable standard card reference files information processing
+january
+compiling techniques boolean expressions conditional statements algol january
+comments implementation recursive procedures blocks algol january
+allocation storage arrays algol january
+dynamic declarations january
+compiling procedure statements comments procedure declarations january
+syntax directed compiler algol january
+coding efficient arithmetic operations existing formula translation schemes yield coding method reduces number store operations constant subexpressions compilation equivalent subexpressions january floyd
+threaded lists constructing combined algol machine assembly processor january evans jr perlis van
+scientific compiler displayed formula language january
+internal organization translator january galler graham
+environment compiler flexible large scale programming facilitate solution information processing problems provide programs programmers developed realized ibm based master file concept storing retrieving descriptions large complex data sets algorithms defined data sets data algorithms expressed family command descriptive languages concept distinct data descriptions content descriptions discussed detail january jr collins jr
+translator january clark
+magnetic tape data storage algol translator january
+recursive processes algol translation january gray
+basic compiler arithmetic expressions january
+ibm data processing features units ibm data processing recently business machines corporation features disk storage drive disk developed units december
+digital computers december
+multiple method point boundary problems december
+legal implications paper points variety ways systems business industry involved legal suggests call minimizing planning stage techniques suggested making legal effective technology legal generally potential technical aspects systems involved legal situations december
+random december
+square december thacher jr
+december
+position point relative polygon december
+combination december
+matrix inversion december
+gamma function december
+complete elliptic integral december
+term square december
+december
+multiple integration december mckeeman
+adaptive integration simpson rule december mckeeman
+december jr
+december jr
+triangular regression december
+fixed world length arrays variable word length computers december
+character manipulation fortran ii december jr
+decision matrix basis simple data input routine great deal time effort development compiler languages executive systems implementation methods procedures occurs process concerned problem maintaining improving incorporating ideas existing systems area author method employing decision matrix presented handling standard systems programming problem providing data input routine december
+evaluation polynomials december knuth
+compiling matrix operations december galler perlis
+mechanical time motion study mechanical linguistic december
+line digital measurement control november
+record linkage special difficulties encountered reliable systems searching updating large files documents identified primarily basis names underlying problem making maximum items information considerable power rules applied generally retrieval systems developed study linkage records family research purposes rules ways information utilization matching discussed november
+topological sorting large networks topological sorting procedure required problems involving analysis networks problem pert present paper presents general method obtaining topological order permits treatment larger networks handled present procedures greater efficiency procedure machine discussed terms pert network activities ordered machine time method developed procedures needed programmed present implement regard techniques present completely program current november
+iteration november mckeeman
+complex number real power december jr
+evaluation jacobi symbol november
+combination november
+simpson integration november
+certification calculation november williams
+path matrix november
+matrix inversion november
+solution equation november
+statement ii november
+statement november
+group november
+iteration november mckeeman
+series november
+random november
+mechanical integrals type integrals november
+coefficient determination november smith
+november
+november
+coding case history data analysis october
+pattern recognition techniques diagnosis programmed digital computers general pattern classification recognition devices phase current interest artificial intelligence important class present good deal people purpose pattern recognition comparisons machine human performance obtained practical result additional make class approach problem presented multiple adaptive present report background application method october
+ambiguity phrase structure languages october floyd
+syntactic analysis digital paper account language describe syntax subroutine enables perform syntactic analysis input subroutine consists string analyzed description syntax syntax expressed language output consists trace table results syntactic analysis tabular form subroutine programs years present account language subroutine summary material previously reports additional discussion work relation general questions problem oriented languages string transformations october
+october
+general order arithmetic october george
+permutation generator october
+incomplete elliptic integrals october
+critical path scheduling october
+summation fourier series october
+october
+gauss method october counts
+october
+input data organization fortran october
+test matrix inversion procedures october
+remarks sampling tape file ii october
+remarks sampling tape file october
+implementing stack october
+pass polyphase merge paper presents manner strings polyphase merge number strings levels polyphase merge technique level polyphase merge shown proved october
+calculation elliptic functions corrigendum september
+day computing september
+list processor september
+phrase structure grammar algol algol defined formal mechanisms phrase structure grammar stated restrictions shown formal mechanisms type sufficient define algol september floyd
+function september
+real error function september
+tridiagonal matrix september
+september
+heuristic page multiprogrammed september
+current status june september
+programmed methods graphical output september
+multiprogramming design low cost digital september
+analysis file addressing method paper presents file addressing method based calculation address identification record large type files probability distribution records calculated address number required address record computed basis markov chain model mathematics introduction summary sufficient august jr
+property classification method file design processing august
+finite compact process matrices arbitrary integral domains august jr
+procedure large symmetric matrices squares method simultaneous parameters coefficients normal equations elements symmetric positive definite matrix order solve normal equations evaluate precision measures resulting parameters inversion matrix coefficients required procedures matrix inversion advantage programmed high speed elements stored independent order memory capacity handle larger matrix procedure symmetric matrix august
+set matrices testing programs august
+remarks line segment curve fitting dynamic programming recent paper bellman dynamic programming determine solution problem previously considered problem determination points interval line segments give squares fit function interval bellman primarily analytical derivation briefly solution equation derived point reduced discrete search paper computational procedure considered fully equations shown equation involving minimization found addition shown bellman method applied curve fitting problem additional constraints added line segments curve august
+square august
+permutation generator august
+august
+jacobi august
+simpson integration august george
+rational roots polynomials integer coefficients august
+factors august
+composition generator august
+permutation august
+partition quicksort find august
+matrix inversion august george
+matrix inversion august
+function august thacher jr
+set test matrices august
+august thacher jr
+august
+coefficients august george
+rational interpolation continued august thacher jr
+matrix inversion ii august george
+evaluation pert network august
+square order august
+square order august
+complex division august smith
+august
+generation partitions constraints august
+august floyd
+position point relative polygon august
+technique handling analysis variance august
+character manipulation fortran august
+description list concepts concept defined class objects members processing properties property defined partition set objects classes formal definition concept recursive nature concept list structure correspondence established recursive definition concept description list structure definition description list structure concept built elementary list structures recursive process list structures obtained compared description list structure discussed author previous august
+fortran business data processing july
+regression coded patterns data editing july
+method treatment planning july
+matching electronic methods record linkage updating files accomplished number number number social security number records unique number generally individual purposes services received department order determine reports individual identification compared operation subject errors problems maintenance case register reports records linked order provide counts records history earlier paper describes general procedures register maintenance digital present detail initial procedures matching process order comments suggestions experience matching july jr
+computation rational approximations continuous functions july
+digital synthesis note method generating covariance function digital methods technique testing performance data processing engineering systems inputs form required technique simple produces sense approximately covariance function interval method consists approximating spectral density periodic process spectral lines periodic random order simplify discussion statistical properties generated technique presented terms exact harmonic analysis practice discrete harmonic analysis presented section july
+calculation elliptic functions july
+triangular pattern hill method solving transcendental equation july
+nonlinear regression solution simultaneous equations set bound relation parameters a1 equation a1 frequently problem determining set values minimizes sum squares differences observed calculated values solution equation a1 function nonlinear version gaussian regression iteration scheme minimizing set values shown minimization technique solution simultaneous necessarily linear equations july
+machine program theorem proving program proof procedure discussed connection runs improvements july
+mechanical integrals type july
+definite exponential integrals july
+definite exponential integrals july
+simpson integration july
+factors july
+interpolation july
+function july
+inverse matrix element july george
+logarithm complex number july johnson
+gamma function july johnson
+calculation interactions july
+mechanical integrals type july
+definite exponential integrals july
+definite exponential integrals july
+gauss method july counts
+complex number real power july johnson
+newton july
+reduction jacobi july
+translation boolean expressions july
+simulation timing device july
+modified inversion procedure product form inverse linear programming codes paper describes selection row matrix inversion product form inverse developed linear programming codes valuable inversion matrix procedures paper tested operation research engineering ibm substantial cost savings realized procedure july
+solution problems approximately eigenvectors july
+communication independently blocks july
+analytic differentiation june
+june
+sorting procedures june
+june
+june
+matrix inversion june
+logarithm complex number june
+exponential complex number june
+coefficients june
+simpson rule june
+permutation order june
+item chain linked list june
+item chain linked list june
+evaluation jacobi symbol june
+evaluation definite complex line integrals june
+shortest path june floyd
+june floyd
+generation partitions part count form june
+combination june
+general order arithmetic june
+note sampling tape file june
+bit june
+redundancy check algol programs june thacher jr
+report algorithmic language fortran ii june
+initial experience operating multiprogramming research center forms program operation modified univac scientific model years initial searching input output automatic time sharing independently coded problems important machine program modifications evolution additional modifications required added facilitate ease coding operation modifications basic data reduction work load computing center schedule valuable made suggested pointed future improvements basic principles multiprogramming material description evolution programming hardware developed present multiprogramming research center
+simultaneous equations matrix inversion routine
+romberg integration
+chebyshev curve fit
+evaluation cosine integral
+evaluation integral
+evaluation asymptotic expression cosine integrals
+cobol problems
+introduction machine independent data division
+advanced input output cobol compiler
+teaching cobol teaching cobol divided main subject areas syntax cobol syntax solving problem programming concepts generally knowledge hardware logic programmer teaching problem determining student hardware logic write cobol programs data students programming difficult measure approach solving problem
+floating point arithmetic cobol paper basic operations floating point arithmetic examined cobol procedures specification working storage paper procedures
+modular data processing systems written cobol
+cobol key object program efficiency question cobol compiler generation efficient object program purpose article present answer creation full utilization constructed cobol library
+report cobol
+cobol
+report cobol evaluation program smith
+cobol compatibility
+basic elements cobol
+cobol
+simulation traffic simulating traffic flow national standards data processing techniques make motion pictures vehicle model vehicle assigned digital identification points entry type vehicle desired speed actual speed simulating field data model made determine ability real expected future april
+method ambiguity due signal digital design april
+calculation april knuth
+permutation april
+permutation april brown
+april brown
+permutation generator april
+april
+jacobi april evans
+simpson integration april
+addressing multidimensional arrays method representing function variables function values selected points dimensional space picture elements dimensional array exist conventional storage linear array vector means performing transformation set array element space location address element storage vector subject paper noted index address transformation computationally identical conversion number fixed mixed radix number ways implementing transformation april
+information algebra phase report language structure group development committee report represents results phase work language structure group goal work proper structure machine independent problem defining language systems level data processing report based part mathematical model called information algebra developed primarily report read interest programming language designers developing theoretical approach data processing interest understanding professional programmers systems authors report present philosophy professional people concerned providing working language systems ideas report similar lines questions comments members language structure group development corporation division univac division ibm corporation management national register george general ibm corporation april
+forms part control completely automatic human work speed control perform calculations data processing fast results required action control working real time
+computers key total systems control man man machine processes characterized main types type shown
+retrieval names record paper discusses limited problem recognition retrieval names large program developed stored program core drum memory solid state records successfully significant original entry time retrieval time procedure involves automatic technique names form names numbers presented final manual program successfully names number usual
+romberg integration thacher jr
+optimal classification objects
+sequence
+sequence
+gamma function real argument
+method representation storage retrieval random codes digit number random codes digit number
+list structures
+floating point number representation algorithmic languages
+binary decimal conversion scheme
+evaluation requirements pair requirements easy read easy write compatible paper added automatically translation process programmer economy expression management full valid cobol version printed give advantages compatibility
+automatic programming language translation analysis
+diagnosis aid algol
+simulation analysis systems iii analysis pattern recognition
+manipulation trees information retrieval
+note boolean matrices
+tape iterative program
+neliac generated compiler neliac systems machines generated original neliac developed laboratory basic process generate systems neliac language generated existing neliac compiler experience shown inherent difficulty building compilers compilers pointed advantages constructing programming systems report presents results project neliac generate compiler ibm compiler runs produces programs neliac language generated neliac reduction programming time improvement documentation significant
+cobol control
+difference expression coefficients
+rational roots polynomials integer coefficients
+interpolation differentiation integration
+introduction algol
+simulation analysis systems ii solution differential equations january
+string language symbol manipulation based algol artificial programming language proposed describing manipulation strings characters symbols concept strings introduced algol report extended strings string arrays explicit lengths ability shift strings symbols comparing boolean relations description language examples description experiments language ibm formal description algol report proposed string language january
+january
+inverse finite segment matrix january
+numerical solution polynomial equation january
+sorting procedures january
+factors january
+curve fitting constraints january
+survey languages systems information retrieval january
+semantic structure information systems january
+translation retrieval requests english language january jr
+language problems structured data january
+language features make good symbol manipulation language suited types information retrieval programs presented general discussion unique programming language examination applications january
+information ability intelligence data january
+information structures processing retrieving january
+discussion special language january
+series december thacher jr
+test matrices december
+indexing lambda notation methods indexing stored elements sparse multi dimensional arrays scheme notation december
+sort december
+determinant december
+assignment december
+gauss december
+topological ordering pert networks december
+kutta december
+minimum cost curve december
+specification december
+legal implications computers business introduction computers business wide variety legal implications merit attention early stage industry highly government subject important common law rules established legal significant processing essential identify provide legal aspects systems order avoid impact physical legal aspects business diverse states basic question law facilities directly questions relating processors respect information bank extent check government pertinent data processing service bank december
+case study line savings bank application development line savings bank early conceptual bank design corporation bank equipment criteria development corporation operation line line programs statistics reliability performance bank discussed point view future line savings bank field discussed december
+recent developments administration december
+account classification december
+application ibm methods calculation constants complex november
+coding laboratory data automatic storage retrieval series laboratory codes developed store analysis test results automatic data processing codes constructed part computerized simulation handle results laboratory test encountered unique feature codes recorded test results test results coded paper describes codes developed presents analysis codes criteria developing codes outlined problem multiple terminology discussed solution problem flexible produced laboratory reports discussed report paper problems ten years practical automated information laboratory november
+computation type functions november
+length strings merge sort detailed statistics length strings result form internal sort phase merge sort tapes shown strings produced method produces strings long method produces strings statements previously literature modification read backward polyphase merge suggested november knuth
+optimizing bit time simulation major component bit time simulation program boolean compiler compiler accepts boolean functions representing simulated digital circuits generates sets machine instructions executed techniques discussed increasing boolean compiler bit time simulation techniques applicable general purpose november
+recent improvements programming language forms displayed formulas basic implementation language previous paper scientific compiler displayed formula language comm acm paper discusses recent improvements language areas complex display logical control area complex display improvements notation integration coefficients area logical control feature notation nested discussion notation procedures november
+error parse november
+flexible words language november
+recursive programming fortran ii november
+serial technique determine minimum paths november
+interpolation differentiation integration november
+euler summation november thacher jr
+smooth november george
+november thacher jr
+bessel functions november
+report discuss common programming languages november
+usa standard information processing november
+description language automatically programmed tools language numerical control programming notation introduced algol report examples usage included presented summary development statement present status november brown
+inverse test matrix october
+extension search variables technique search concepts developed solve optimization problems involving functions variables technique optimal sense dimensional search valuable kinds calculations october
+comparison tapes principal characteristics current magnetic tape units summarized compared characteristics disk files illustrated sorting compared presented disk files tapes important applications october
+disk file paper briefly describing ibm special emphasis organization operation input output equipment physical characteristics disk bit words word transmission rate noted timing limitations due motion disk discussed applications disk usage discussed separately problem programs systems programs compilers supervisory program approximately words disk storage storage systems programs subroutine library problem programs disk programming techniques discussed words disk core storage minimum arithmetic unit disk considered recovery mathematical physical developments calculation comments made reliability utility limitations disk future applications noted disk october
+automatic data disk files space large scale automatic data facilities van includes remote input operating data central data processing center systems record control flow data data processing center large capacity data file store information required provide date information response received addition storage data disk files automatically records data magnetic tape input conventional line business data processing applications october
+numerical method determination moving field curves treatment planning october
+data communication computers ordinary operating users call ordinary special hardware required users input telephone output form results test area reported october
+contour map program ray fortran program ibm plotter produce contour map matrix points dimension scale factors october
+interpolation october
+sort october
+october
+october
+combinatorial things time time time october collins
+combinatorial things time october
+fourier series approximation october
+october
+evaluation integrals october gray
+assignment october
+integrals october gray
+frequency distribution october gray
+interpolation october
+interpolation october
+gauss october
+discrete october jr
+october boothroyd
+partitioning algorithms finite sets partitions set elements represented positive integers generate partitions set partitions set fewer sets partitions set sets october
+experiment automatic verification programs effective compiler explicit verification cost technique october
+variable width character variable field computers permit manipulation variable width single machine commands variable field items availability variety field machine variable width item command operations made basis compiler algorithms proper machines class compilation advantages machines fixed length words october
+format free input fortran october
+report proposed american standard flowchart symbols information processing paper presents essential contents proposed american standard flowchart symbols information processing proposed standard prepared x3 problem description analysis american standards october
+group representation algol symbols october
+subset algol october
+programmer members acm study concerned primarily attitudes programmers jobs high programmers choice field years principal job nature work jobs high level professional interest good working conditions satisfactory half report positive programmers programming part organizations primarily management principal factor programmers nature work offered principal job programmers expected programmers light function systems programmers applications programmers principal problems programming future languages specific applications techniques building programming october
+group october
+general program analysis square rectangular designs paper describes general purpose program handle incomplete block designs square rectangular flow diagrams method calculation programmed digital september
+approximate solution dimensional problems numerically fast accurate numerical method programming details examples mathematical theory method natural dimensional problems means dimensional september
+drawn flowcharts improved documentation written programs simple effective communication presented shown great programmer describes program simple format flow cross input description date easily final output original program proved valuable debugging coding aid september knuth
+generalization algol september wirth
+compiler based standard mathematical notation english version compiler operation features intended solution scientific problems presentation mathematical formulas standard notation english instructions automatic error diagnosis actual location error program attempt minimize fragmentation original problem statement normal feature programming systems september
+symmetric list processor list processing list cell forward backward link intended higher level languages capable functions subroutines coded machine language presentation form fortran programs depending limited set fortran programs depending limited set primitive machine language subroutines defined finally set field character manipulation primitives round september
+monte carlo inverse september
+newton interpolation forward divided differences september thacher jr
+newton interpolation backward divided differences september thacher jr
+calculation divided differences september thacher jr
+modified functions september thacher jr
+series september
+fourier series approximation september george
+september
+interest september
+evaluation determinant september
+evaluation determinant september
+september
+september
+september
+september
+generation permutations order september
+semi iterative process evaluating september
+note matrices september
+matrix eigenvectors september
+note set test matrices inversion september
+tape september moore
+procedure converting logic table conditions efficient sequence test instructions september
+monitor september
+exponential method numerical integration ordinary differential equations formula numerical integration prepared involves exponential term formula compared standard integration methods shown large class differential equations exponential formula superior stability properties large step sizes formula large step size total computing time solution significantly engineering problems high accuracy needed august
+program editing august
+simulation traffic network august
+structure pert programs introduction pert programs provided major components programs purposes outlined august
+continued operation notation symbol manipulation array processing account device formal representation string relationships string transformation procedures computing procedures deal arrays functions variables device consists continued operation symbols summation symbol continued multiplication symbol conventional mathematics august
+fortran august
+note algol algol proposed eliminate statements language discussion background problem proof ambiguities included august jr
+remarks syntax symbolic programming languages august
+syntax controlled generator formal language processors august
+reduction matrix polynomial elements august
+orthogonal polynomial squares surface fit august
+move plotting august
+certification combinatorial things time time time comm acm august
+certification combinatorial things time comm acm august
+algebra sets august
+combination order august
+combination order august
+august
+matrix inversion august george
+jacobi august naur
+interpolation differentiation integration august
+partition quicksort find august
+set test matrices august naur
+legendre functions kind real arguments august george
+ii august
+gauss method inversion ii august naur
+august
+august
+august boothroyd
+normal random august george
+calendar date day number august
+adaptive integration multiple integration august mckeeman
+matrix division august
+method finding roots arbitrary function august
+august
+august
+character manipulation fortran august smith
+multiple precision binary decimal integer conversion addition august moore
+list structures august
+list type storage technique information method economic terms space time proposed storage manipulation character strings arbitrary length fixed word length method illustrated application algol type algol block structure august
+debugging systems source language level august
+time sharing low cost serial designed built scientific department location magnetic drum main store avoid optimum programming techniques increase efficiency word core store program core drum paper tape input output time shared multiplication division orders machine executing orders simultaneously functions number advanced orders facilities execute order permits jump orders register permits double modification general relative addressing subroutines effective speed machine basic specification lead design concepts time sharing incorporated low cost computers august
+american standard code information interchange august
+entry retrieval july
+design transition compiler cobol compiler design presented compact permit rapid pass compilation large subset cobol large compiler smaller machines require working tapes compiler tape methods applicable construction algol compilers july
+linking segment language linking july
+squares solution constraints july
+july
+july evans jr
+series algorithms july thacher jr
+newton july
+certification matrix inversion procedures july
+series july
+july
+july
+complex power july
+july
+july
+differences derivatives july
+complex arithmetic july
+normal probability curve fitting july
+probability curve fitting july
+july
+boolean ibm july
+polynomial evaluation revised july
+checking loops networks july
+remarks sampling tape file iii july
+real time programming specifications problems implementation large real time applications suggested guidelines program file specifications developed problems occur systems programming july head
+syntactic description july wirth
+automated descriptive geometry descriptive geometry consists procedures designed solve space geometry problems graphical measurement computation addition approach problems call subroutines compute graphical advantage approach descriptive geometry accuracy computation speed digital makes program problems space statements consists subroutines procedures descriptive geometry june
+interpretive program analysis data operating program processes recorded data input program consists high recorded program automatically measures preliminary interpretation continuous operation processing rate achieved june
+remarks fortran subroutines time series analysis june
+disk file sorting sorting techniques ibm random access storage device evaluated june
+flow network calculations general method calculation flow networks presented method applicable june
+external language digital june
+computing language june
+real error function june thacher jr
+curve fitting constraints june
+reduction symmetric form june schwartz
+nonrecursive adaptive integration june mckeeman
+error function large june thacher jr
+error function large june thacher jr
+incomplete ratio june
+direct search june jr
+squares solution constraints june
+squares surface fit june
+sort june
+bounds polynomial june
+june
+fortran feature june
+test matrix june
+inverse conversion table june
+matching program logic matching program written june brown
+note range transformations square root logarithm idea previous papers years functions desirable transform argument short range symmetric give examples usage square root logarithm function binary decimal machines june bemer
+tree structures processing files data processing problems files frequently binary search techniques efficient searching large files file organization readily file file allocation permits efficient efficiently file organized tree structure discussed shown file times proportional number file items parameter tree shown optimizing search time binary search tree organization employs data considered organizations binary search file relation tree organization multidimensional indexing structure discussed jr
+conversion comparison techniques variable length sorting logic converting highly variable input records format easily efficiently processed sorting program internal record discussed relation conversion input output comparison techniques internal
+design characteristics variable length record sort fixed length record sorting techniques paper describes application techniques sorting fixed length records problems variable length record sorting techniques implemented fixed length words memory specifically techniques sequence variable length records size produce long initial strings data merge strings data power number work tapes volume input data
+method comparing time requirements sorting methods
+cobol sort
+characteristics sorting computing systems random access storage devices substantial differences characteristics random access storage tape devices concepts objectives program design considered external file medium true case sorting tape oriented major sorting problem minimizing merge time limited orders merge sorting random access oriented selection optimum order merge orders problem discussed paper criteria developed determining optimum order merge properties random access storage devices attention problem key sorting record sorting possibly key sorting random access
+organization structure disk file memory systems efficient sorting data processing programs approach organization structure data file memory systems sorting performing data processing functions presented areas characteristics file systems proposed chaining structures data functions disk file executive routine concepts sorting performing file maintenance processing proposed structure executive routine discussed shown sorting accomplished disk storage work areas
+sorting large volume random access drum storage approach sorting records random access drum memory sort program designed generalized generating sort applicable variety record statements description divided parts part presents operating environment general solution part describes internal sort merge technique jr
+sorting files techniques fact compiler typical file structures including called redundant examined methods fact sort files discussed
+tape file merge pattern generator routine presented sequence merge cycles effect merging tape files routine designed minimize time power merge cycles tape characteristic drive single file multiple file
+comparison polyphase sort techniques comparison polyphase sort techniques developed systems ten tape basis comparison total writing required number input strings tape techniques
+read backward polyphase sorting read backward polyphase sorting efficient tapes sort sorting techniques backward polyphase produces continuous merging process tapes total number tapes sorting process techniques conjunction polyphase merge sort provided capability producing strings strings tapes required polyphase merge
+string distribution polyphase sort jr
+sorting
+empirical study minimal storage sorting
+internal tape sorting replacement selection technique general technique sequencing records presented technique shown applicable stage generalized sort program initial strings sorting records memory storage internal sort shown records memory storage records log2 tests record initial string lengths average 2n random input records writing processing accomplished simultaneously permits overlap
+sorting computers gotlieb
+squares fitting surfaces dynamic programming dynamic programming recently bellman determine fit line segments curve interval number segments fixed present paper successive models developed extend method fitting plane segments surfaces defined types space model considers rectangular area plane segments defined space shown model incorporated successive approximations optimal type closed area finally applications briefly april
+suggested method making strings algol april brown
+term square april
+term square april
+april thacher jr
+adaptive numerical integration simpson rule april mckeeman
+random april jr
+chebyshev april
+incomplete elliptic integrals april van
+complete elliptic integral april thacher
+complete elliptic integral kind april thacher jr
+reduction matrix polynomial elements april
+newton interpolation forward divided differences april
+newton interpolation backward divided differences april
+calculation divided differences april
+monte carlo april
+complete elliptic integrals april thacher jr
+orthogonal polynomial squares surface fit april clark
+modified function april
+move plotting april
+combinatorial things time time time april
+combinatorial things time april
+actions algol programming language april
+selected definitions selection definitions prepared acm standards committee programming terminology presented acm april
+information retrieval information retrieval problem solution presented technical library limited solution general applicable types retrieval problems method solution makes groups previously information retrieval program difficult programming point position present solution makes information retrieval program equipment
+retrieval command language scheme retrieval manipulation data file records language scheme selecting file records logical condition statements defining record classes file records editing printed output results operations examples typical file application significant features machine implementation
+significance arithmetic digital modified include significance mode operation intended facilitate identification significant bits results floating point arithmetic operations manner floating point arithmetic handled mode discussed numerical experiments mode comparisons made ordinary mode examples include power series evaluation linear equations solution determinant evaluation matrix inversion
+iterative factorization technique polynomials iterative technique displayed factors arbitrary degree found polynomials variable convergence shown occur initial approximation factor actual factor process simply programmed preliminary results digital computers factors degree technique similar present method simpler
+computational extension difference method presented computational extension difference method developed
+characteristic values vectors matrices
+note proof existence phrase structure grammar algol brown
+random
+square
+thacher jr
+difference expression coefficients clark
+determinant
+series
+fourier series approximation
+algebra sets
+combination order
+combination order
+test matrix inversion
+declarations corrigendum
+selective instruction
+method file searching
+addressing array dimensions fortran analysis variance
+neliac
+documentation
+documentation
+fortran
+cobol
+documentation problems algol naur
+documentation programming languages
+incomplete elliptic integrals
+thacher jr
+location vector ordered
+linear programming applied
+character manipulation fortran
+construction
+decimal binary conversion short fields
+systematic analysis digital programs
+matrix inversion gauss inversion ii january naur
+squares january naur
+gauss method january naur
+calculating means january naur
+set test matrices january naur
+inverse finite segment matrix january naur
+january naur
+gamma function january
+generating discrete random variables note concerned details things assigned probabilities method uniform variable direct memory location sequence chosen conditional probabilities efficient memory space fast programs result january
+recursive program general dimensional integral general program outlined dimensional integration variable program recursive nature simpson rule combined required accuracy developed scheme january
+fortran subroutines time series analysis authors recently concerned time series study typical applied statistical research involving extensive computations large data found numerical processes required built completely small number basic operations set fortran subroutines written perform main purpose note describe subroutines question general statistical programs include general remarks january
+terms frequently combined problem description january
+storage search properties tree organized memory memory list properties construct numeric trees trees information storage retrieval properties applicable problems involving large quantities data problems word length distribution stored information processing purpose paper storage search properties tree organized storage memory list properties prime interest application symbol table dictionary similar file stored january
+declarations application cobol january
+suggestions algol issues report american standards x3 january
+algol report january
+note procedures december
+integer constants algol remarks relations syntax semantics programming languages point true grammar context free language strings generating device method meaning grammar algol open december
+parallel methods ordinary differential equations paper order full advantage real time computations highly parallel computers expected future numerical analysis parallel form serial algorithms computed knowledge results method proposed numerical integration ordinary differential equation process standard methods serial december
+rational chebyshev approximations bessel function integrals approximate integrals rational functions related coefficients approximations december
+fortran ii chaining december
+scanning text december
+note calculation probabilities distribution december
+class matrices test inversion procedures december
+family test matrices december
+method partial magnetic tape december
+case precision december
+mark sense programming inputs december
+curve fitting format fortran december
+limited bit manipulation fortran ii techniques developed manipulating bits fortran ii techniques individual bits tested fields numbers coded binary december
+double precision squares root cdc january summary approximations elementary functions cdc approximations techniques suggested applicable large cdc line built double precision floating point arithmetic present work extension ideas double precision subroutine december
+relative effects central processor input output large presented paper technique determining relative effects internal speed speed input output units speed equations derived permit determination effects hardware usage measurements december
+algebra coefficients theoretical table formulas integrals involving legendre functions constructed program performed algebraic operations formulas rational algebraic expressions single variable constructed recurrence procedure interest coding techniques write relevant programs fortran results controlled tapes punched directly output avoiding manual errors correction december
+greatest common divisor a1 december
+evaluation determinant december
+error function s15 december
+inverse random point sequence g5 december smith
+december boothroyd
+m1 december floyd
+time sharing traffic control program traffic signal control consists variety distinct programs machine time satisfy time sharing program written purpose execute order priority real time paper interesting aspects time sharing program outlined november
+executive implemented finite state command control permits operators access large data files man machine interface satisfied communication operators queries view data link permits remote messages status reports directly information received line data link update data files stored disk programming divided executive control program components processing permit sensitive console inputs permit operators time share central processor executive control program control programming components major emphasis paper technique definition finite state organizing executive control program november
+estimation parameters potential measurements fundamental problem vector estimation state basis potential measurements mathematical model relating surface shown inverse problem determining parameters basis potential measurements viewed nonlinear boundary problem feasible solution employing high speed digital computers november bellman
+technique tapes makes analysis feasible ibm study higher frequency components long series cycles examined valid comparison made technique presented automatic analysis long series cycles digital november
+program work standard vocabulary computers information processing november
+integrals november gray
+calendar date day number november
+integrals november
+logarithm complex number november
+multiple precision arithmetic exact calculation symbols paper general purpose multiple precision fixed point routines subroutines mechanical symbols large arguments november
+rounding problems data processing common requirement data processing sum set numbers generally manner equal sum numbers rounding procedures procedure depends numbers sign sum sign number rounding november
+inductive approach language translation possibility natural language translation means fixed operations considered sentence translation work presented measurement physical similarity pairs strings discussed notion central role proposed type translator experimental evidence presented support based november
+tape information interchange proposed american standard october
+report input output procedures algol october
+report subset algol october
+proposed proposed american standard specification general purpose paper information processing october
+fortran basic fortran programming language information processing automatic data processing systems october
+history summary fortran standardization development october
+method syntax specification october
+type statements programming languages proposal made including programming language statements relations variables explicit assignment statements compiler sets iteration making purpose routine formal differentiation october
+gamma function accuracy s14 october
+gamma function s14 october
+kutta october
+m1 october
+e4 october
+permutations set g6 october
+protection programs october
+programs october
+computers october
+october
+aspects usage paper concerned question work work analyzed partially utilized produce output question programs programs discussed paper directed primarily discussion present law aspects proposed law included general recommendations made respect proposed law october
+rapid method digital time time series analysis minimum multiplication method digital line real time analysis data constructed readily components manner frequency response curves includes good low pass pass designs programs implementing synthesis application computers definition recursive macros september
+analysis method systems detection rapid correct data handle relaxation times program developed distribution function time distribution step subroutine state action produced program based direct statement fourier law rate equation provide law flow distribution analysis method physical process explicitly program results mathematical procedures program tested exact solutions equation identical results compared experimental data construction programs based direct statement physical principle general applicability applied physical september
+september
+september
+storage allocation reference structure method proposed discussed variable capability fortran sense added type assembly systems september
+extension existing compilers sophisticated macros description presented application macros string employed facility september
+scheduling scheduling papers developed american experimental scientific united states technique developed applied schedule parallel september schwartz
+solution combinatorial problems generating functions variable field utility generating functions solving combinatorial problems discussed implementation results presented evaluated september
+computation facility education research present day computing facilities limited scientific research strongly users full power research computing terminals give user ability generate correct operate procedure simple complex implementation small scale permits users work independently machine obtain satisfactory response typewriter communication september
+logarithm complex number august
+formal parsing systems automatic syntactic analysis recently important natural language data processing syntax directed compilers formal parsing consists finite map recursive set strings called syntactic sentence classes program automatic syntactic analysis determines formal parsing directed production analyzer nondeterministic pushdown store machine internal vocabulary input vocabulary productions form elements set element set context free language analyzed directed production analyzer multiple path syntactic analyzer english directed production analyzer working parsing connection structures assigned analyzer conventional phrase structure grammar examined paper august
+final examination scheduling method scheduling final examinations yield minimal number student conflicts minimization achieved evaluating nonlinear set equations process random monte carlo selection heuristic techniques solution optimum solutions found yield minimal results programs empirical results august
+machine analysis variance major problem analysis variance number factors increases exponential number interactions interactions experimental designs problem error terms natural handle work involved computing interactions program device august
+minimax polynomial approximations partitioning intervals method minimax polynomial approximation product method formula estimate maximum error degree approximation formula partitioning obtained basic interval approximations equal degree give equal maximum error august
